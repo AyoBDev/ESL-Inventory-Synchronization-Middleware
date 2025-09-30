@@ -1,7 +1,7 @@
 {
-  "DBF_INPUT_DIR": "./RMan_Export",
-  "CSV_OUTPUT_DIR": "./ESL_Sync",
-  "LOG_DIR": "./ESL_Middleware_Logs",
+  "DBF_INPUT_DIR": "./RMan_Export/",
+  "CSV_OUTPUT_DIR": "./ESL_Sync/",
+  "LOG_DIR": "./ESL_Middleware_Logs/",
   "STATE_FILE": "state.json",
   "POLL_INTERVAL": 30,
   "MAX_RETRIES": 3,

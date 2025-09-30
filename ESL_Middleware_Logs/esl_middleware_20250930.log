@@ -1,0 +1,225 @@
+2025-09-30 18:13:39 | INFO     | ================================================================================
+2025-09-30 18:13:39 | INFO     | ESL INVENTORY SYNCHRONIZATION MIDDLEWARE STARTED
+2025-09-30 18:13:39 | INFO     | Version: 1.0.0
+2025-09-30 18:13:39 | INFO     | Config: config.json
+2025-09-30 18:13:39 | INFO     | Poll Interval: 30 seconds
+2025-09-30 18:13:39 | INFO     | ================================================================================
+2025-09-30 18:13:39 | INFO     | Starting ESL Middleware...
+2025-09-30 18:13:39 | INFO     | Running initial synchronization...
+2025-09-30 18:13:39 | INFO     | Starting sync cycle #1
+2025-09-30 18:13:39 | INFO     | Found 1 DBF file(s) in RMan_Export
+2025-09-30 18:13:39 | INFO     | Processing: AnyConv.com__dummy_pos.dbf
+2025-09-30 18:13:39 | INFO     | Detecting changes in AnyConv.com__dummy_pos.dbf
+2025-09-30 18:13:39 | INFO     | Reading DBF file: RMan_Export/AnyConv.com__dummy_pos.dbf
+2025-09-30 18:13:39 | INFO     | Successfully read 5 records from RMan_Export/AnyConv.com__dummy_pos.dbf
+2025-09-30 18:13:39 | INFO     | Change detection complete for AnyConv.com__dummy_pos.dbf:
+2025-09-30 18:13:39 | INFO     |   New records: 0
+2025-09-30 18:13:39 | INFO     |   Updated records: 0
+2025-09-30 18:13:39 | INFO     |   Deleted records: 0
+2025-09-30 18:13:39 | INFO     |   Unchanged records: 5
+2025-09-30 18:13:39 | INFO     |   Max DOC_NO: 0
+2025-09-30 18:13:39 | INFO     | No changes detected in AnyConv.com__dummy_pos.dbf
+2025-09-30 18:13:39 | INFO     | ============================================================
+2025-09-30 18:13:39 | INFO     | Sync Cycle #1 Complete
+2025-09-30 18:13:39 | INFO     |   Duration: 0.00 seconds
+2025-09-30 18:13:39 | INFO     |   Files Processed: 1
+2025-09-30 18:13:39 | INFO     |   New Records: 0
+2025-09-30 18:13:39 | INFO     |   Updated Records: 0
+2025-09-30 18:13:39 | INFO     |   Deleted Records: 0
+2025-09-30 18:13:39 | INFO     |   CSV Files Created: 0
+2025-09-30 18:13:39 | INFO     | ============================================================
+2025-09-30 18:13:39 | SUCCESS  | ✅ Middleware started. Syncing every 30 seconds
+2025-09-30 18:14:09 | INFO     | Starting sync cycle #2
+2025-09-30 18:14:09 | INFO     | Found 1 DBF file(s) in RMan_Export
+2025-09-30 18:14:09 | INFO     | Processing: AnyConv.com__dummy_pos.dbf
+2025-09-30 18:14:09 | INFO     | Detecting changes in AnyConv.com__dummy_pos.dbf
+2025-09-30 18:14:09 | INFO     | Reading DBF file: RMan_Export/AnyConv.com__dummy_pos.dbf
+2025-09-30 18:14:09 | INFO     | Successfully read 5 records from RMan_Export/AnyConv.com__dummy_pos.dbf
+2025-09-30 18:14:09 | INFO     | Change detection complete for AnyConv.com__dummy_pos.dbf:
+2025-09-30 18:14:09 | INFO     |   New records: 0
+2025-09-30 18:14:09 | INFO     |   Updated records: 0
+2025-09-30 18:14:09 | INFO     |   Deleted records: 0
+2025-09-30 18:14:09 | INFO     |   Unchanged records: 5
+2025-09-30 18:14:09 | INFO     |   Max DOC_NO: 0
+2025-09-30 18:14:09 | INFO     | No changes detected in AnyConv.com__dummy_pos.dbf
+2025-09-30 18:14:09 | INFO     | ============================================================
+2025-09-30 18:14:09 | INFO     | Sync Cycle #2 Complete
+2025-09-30 18:14:09 | INFO     |   Duration: 0.01 seconds
+2025-09-30 18:14:09 | INFO     |   Files Processed: 1
+2025-09-30 18:14:09 | INFO     |   New Records: 0
+2025-09-30 18:14:09 | INFO     |   Updated Records: 0
+2025-09-30 18:14:09 | INFO     |   Deleted Records: 0
+2025-09-30 18:14:09 | INFO     |   CSV Files Created: 0
+2025-09-30 18:14:09 | INFO     | ============================================================
+2025-09-30 18:14:39 | INFO     | Starting sync cycle #3
+2025-09-30 18:14:39 | INFO     | Found 1 DBF file(s) in RMan_Export
+2025-09-30 18:14:39 | INFO     | Processing: AnyConv.com__dummy_pos.dbf
+2025-09-30 18:14:39 | INFO     | Detecting changes in AnyConv.com__dummy_pos.dbf
+2025-09-30 18:14:39 | INFO     | Reading DBF file: RMan_Export/AnyConv.com__dummy_pos.dbf
+2025-09-30 18:14:39 | INFO     | Successfully read 5 records from RMan_Export/AnyConv.com__dummy_pos.dbf
+2025-09-30 18:14:39 | INFO     | Change detection complete for AnyConv.com__dummy_pos.dbf:
+2025-09-30 18:14:39 | INFO     |   New records: 0
+2025-09-30 18:14:39 | INFO     |   Updated records: 0
+2025-09-30 18:14:39 | INFO     |   Deleted records: 0
+2025-09-30 18:14:39 | INFO     |   Unchanged records: 5
+2025-09-30 18:14:39 | INFO     |   Max DOC_NO: 0
+2025-09-30 18:14:39 | INFO     | No changes detected in AnyConv.com__dummy_pos.dbf
+2025-09-30 18:14:39 | INFO     | ============================================================
+2025-09-30 18:14:39 | INFO     | Sync Cycle #3 Complete
+2025-09-30 18:14:39 | INFO     |   Duration: 0.00 seconds
+2025-09-30 18:14:39 | INFO     |   Files Processed: 1
+2025-09-30 18:14:39 | INFO     |   New Records: 0
+2025-09-30 18:14:39 | INFO     |   Updated Records: 0
+2025-09-30 18:14:39 | INFO     |   Deleted Records: 0
+2025-09-30 18:14:39 | INFO     |   CSV Files Created: 0
+2025-09-30 18:14:39 | INFO     | ============================================================
+2025-09-30 18:15:09 | INFO     | Starting sync cycle #4
+2025-09-30 18:15:09 | INFO     | Found 1 DBF file(s) in RMan_Export
+2025-09-30 18:15:09 | INFO     | Processing: AnyConv.com__dummy_pos.dbf
+2025-09-30 18:15:09 | INFO     | Detecting changes in AnyConv.com__dummy_pos.dbf
+2025-09-30 18:15:09 | INFO     | Reading DBF file: RMan_Export/AnyConv.com__dummy_pos.dbf
+2025-09-30 18:15:09 | INFO     | Successfully read 5 records from RMan_Export/AnyConv.com__dummy_pos.dbf
+2025-09-30 18:15:09 | INFO     | Change detection complete for AnyConv.com__dummy_pos.dbf:
+2025-09-30 18:15:09 | INFO     |   New records: 0
+2025-09-30 18:15:09 | INFO     |   Updated records: 0
+2025-09-30 18:15:09 | INFO     |   Deleted records: 0
+2025-09-30 18:15:09 | INFO     |   Unchanged records: 5
+2025-09-30 18:15:09 | INFO     |   Max DOC_NO: 0
+2025-09-30 18:15:09 | INFO     | No changes detected in AnyConv.com__dummy_pos.dbf
+2025-09-30 18:15:09 | INFO     | ============================================================
+2025-09-30 18:15:09 | INFO     | Sync Cycle #4 Complete
+2025-09-30 18:15:09 | INFO     |   Duration: 0.01 seconds
+2025-09-30 18:15:09 | INFO     |   Files Processed: 1
+2025-09-30 18:15:09 | INFO     |   New Records: 0
+2025-09-30 18:15:09 | INFO     |   Updated Records: 0
+2025-09-30 18:15:09 | INFO     |   Deleted Records: 0
+2025-09-30 18:15:09 | INFO     |   CSV Files Created: 0
+2025-09-30 18:15:09 | INFO     | ============================================================
+2025-09-30 18:15:39 | INFO     | Starting sync cycle #5
+2025-09-30 18:15:39 | INFO     | Found 1 DBF file(s) in RMan_Export
+2025-09-30 18:15:39 | INFO     | Processing: AnyConv.com__dummy_pos.dbf
+2025-09-30 18:15:39 | INFO     | Detecting changes in AnyConv.com__dummy_pos.dbf
+2025-09-30 18:15:39 | INFO     | Reading DBF file: RMan_Export/AnyConv.com__dummy_pos.dbf
+2025-09-30 18:15:39 | INFO     | Successfully read 5 records from RMan_Export/AnyConv.com__dummy_pos.dbf
+2025-09-30 18:15:39 | INFO     | Change detection complete for AnyConv.com__dummy_pos.dbf:
+2025-09-30 18:15:39 | INFO     |   New records: 0
+2025-09-30 18:15:39 | INFO     |   Updated records: 0
+2025-09-30 18:15:39 | INFO     |   Deleted records: 0
+2025-09-30 18:15:39 | INFO     |   Unchanged records: 5
+2025-09-30 18:15:39 | INFO     |   Max DOC_NO: 0
+2025-09-30 18:15:39 | INFO     | No changes detected in AnyConv.com__dummy_pos.dbf
+2025-09-30 18:15:39 | INFO     | ============================================================
+2025-09-30 18:15:39 | INFO     | Sync Cycle #5 Complete
+2025-09-30 18:15:39 | INFO     |   Duration: 0.01 seconds
+2025-09-30 18:15:39 | INFO     |   Files Processed: 1
+2025-09-30 18:15:39 | INFO     |   New Records: 0
+2025-09-30 18:15:39 | INFO     |   Updated Records: 0
+2025-09-30 18:15:39 | INFO     |   Deleted Records: 0
+2025-09-30 18:15:39 | INFO     |   CSV Files Created: 0
+2025-09-30 18:15:39 | INFO     | ============================================================
+2025-09-30 18:16:09 | INFO     | Starting sync cycle #6
+2025-09-30 18:16:09 | INFO     | Found 1 DBF file(s) in RMan_Export
+2025-09-30 18:16:09 | INFO     | Processing: AnyConv.com__dummy_pos.dbf
+2025-09-30 18:16:09 | INFO     | Detecting changes in AnyConv.com__dummy_pos.dbf
+2025-09-30 18:16:09 | INFO     | Reading DBF file: RMan_Export/AnyConv.com__dummy_pos.dbf
+2025-09-30 18:16:09 | INFO     | Successfully read 5 records from RMan_Export/AnyConv.com__dummy_pos.dbf
+2025-09-30 18:16:09 | INFO     | Change detection complete for AnyConv.com__dummy_pos.dbf:
+2025-09-30 18:16:09 | INFO     |   New records: 0
+2025-09-30 18:16:09 | INFO     |   Updated records: 0
+2025-09-30 18:16:09 | INFO     |   Deleted records: 0
+2025-09-30 18:16:09 | INFO     |   Unchanged records: 5
+2025-09-30 18:16:09 | INFO     |   Max DOC_NO: 0
+2025-09-30 18:16:09 | INFO     | No changes detected in AnyConv.com__dummy_pos.dbf
+2025-09-30 18:16:09 | INFO     | ============================================================
+2025-09-30 18:16:09 | INFO     | Sync Cycle #6 Complete
+2025-09-30 18:16:09 | INFO     |   Duration: 0.01 seconds
+2025-09-30 18:16:09 | INFO     |   Files Processed: 1
+2025-09-30 18:16:09 | INFO     |   New Records: 0
+2025-09-30 18:16:09 | INFO     |   Updated Records: 0
+2025-09-30 18:16:09 | INFO     |   Deleted Records: 0
+2025-09-30 18:16:09 | INFO     |   CSV Files Created: 0
+2025-09-30 18:16:09 | INFO     | ============================================================
+2025-09-30 18:16:14 | INFO     | Received signal 2. Shutting down...
+2025-09-30 18:16:14 | INFO     | Stopping ESL Middleware...
+2025-09-30 18:16:14 | SUCCESS  | ✅ Middleware stopped gracefully
+2025-09-30 18:24:13 | INFO     | ================================================================================
+2025-09-30 18:24:13 | INFO     | ESL INVENTORY SYNCHRONIZATION MIDDLEWARE STARTED
+2025-09-30 18:24:13 | INFO     | Version: 1.0.0 (Cross-Platform)
+2025-09-30 18:24:13 | INFO     | Platform: Darwin 24.5.0
+2025-09-30 18:24:13 | INFO     | Python: 3.13.7
+2025-09-30 18:24:13 | INFO     | Config: config.json
+2025-09-30 18:24:13 | INFO     | Poll Interval: 30 seconds
+2025-09-30 18:24:13 | INFO     | ================================================================================
+2025-09-30 18:24:13 | INFO     | Starting ESL Middleware...
+2025-09-30 18:24:13 | INFO     | Running initial synchronization...
+2025-09-30 18:24:13 | INFO     | Starting sync cycle #1
+2025-09-30 18:24:13 | INFO     | Found 1 DBF file(s) in RMan_Export
+2025-09-30 18:24:13 | INFO     | Processing: AnyConv.com__dummy_pos.dbf
+2025-09-30 18:24:13 | INFO     | Detecting changes in AnyConv.com__dummy_pos.dbf
+2025-09-30 18:24:13 | INFO     | Reading DBF file: RMan_Export/AnyConv.com__dummy_pos.dbf
+2025-09-30 18:24:13 | INFO     | Successfully read 5 records from RMan_Export/AnyConv.com__dummy_pos.dbf
+2025-09-30 18:24:13 | INFO     | Change detection complete for AnyConv.com__dummy_pos.dbf:
+2025-09-30 18:24:13 | INFO     |   New records: 0
+2025-09-30 18:24:13 | INFO     |   Updated records: 0
+2025-09-30 18:24:13 | INFO     |   Deleted records: 0
+2025-09-30 18:24:13 | INFO     |   Unchanged records: 5
+2025-09-30 18:24:13 | INFO     |   Max DOC_NO: 0
+2025-09-30 18:24:13 | INFO     | No changes detected in AnyConv.com__dummy_pos.dbf
+2025-09-30 18:24:13 | INFO     | ============================================================
+2025-09-30 18:24:13 | INFO     | Sync Cycle #1 Complete
+2025-09-30 18:24:13 | INFO     |   Duration: 0.00 seconds
+2025-09-30 18:24:13 | INFO     |   Files Processed: 1
+2025-09-30 18:24:13 | INFO     |   New Records: 0
+2025-09-30 18:24:13 | INFO     |   Updated Records: 0
+2025-09-30 18:24:13 | INFO     |   Deleted Records: 0
+2025-09-30 18:24:13 | INFO     |   CSV Files Created: 0
+2025-09-30 18:24:13 | INFO     | ============================================================
+2025-09-30 18:24:13 | SUCCESS  | ✅ Middleware started. Syncing every 30 seconds
+2025-09-30 18:24:13 | INFO     | Press Ctrl+C to stop
+2025-09-30 18:24:44 | INFO     | Starting sync cycle #2
+2025-09-30 18:24:44 | INFO     | Found 1 DBF file(s) in RMan_Export
+2025-09-30 18:24:44 | INFO     | Processing: AnyConv.com__dummy_pos.dbf
+2025-09-30 18:24:44 | INFO     | Detecting changes in AnyConv.com__dummy_pos.dbf
+2025-09-30 18:24:44 | INFO     | Reading DBF file: RMan_Export/AnyConv.com__dummy_pos.dbf
+2025-09-30 18:24:44 | INFO     | Successfully read 5 records from RMan_Export/AnyConv.com__dummy_pos.dbf
+2025-09-30 18:24:44 | INFO     | Change detection complete for AnyConv.com__dummy_pos.dbf:
+2025-09-30 18:24:44 | INFO     |   New records: 0
+2025-09-30 18:24:44 | INFO     |   Updated records: 0
+2025-09-30 18:24:44 | INFO     |   Deleted records: 0
+2025-09-30 18:24:44 | INFO     |   Unchanged records: 5
+2025-09-30 18:24:44 | INFO     |   Max DOC_NO: 0
+2025-09-30 18:24:44 | INFO     | No changes detected in AnyConv.com__dummy_pos.dbf
+2025-09-30 18:24:44 | INFO     | ============================================================
+2025-09-30 18:24:44 | INFO     | Sync Cycle #2 Complete
+2025-09-30 18:24:44 | INFO     |   Duration: 0.02 seconds
+2025-09-30 18:24:44 | INFO     |   Files Processed: 1
+2025-09-30 18:24:44 | INFO     |   New Records: 0
+2025-09-30 18:24:44 | INFO     |   Updated Records: 0
+2025-09-30 18:24:44 | INFO     |   Deleted Records: 0
+2025-09-30 18:24:44 | INFO     |   CSV Files Created: 0
+2025-09-30 18:24:44 | INFO     | ============================================================
+2025-09-30 18:25:14 | INFO     | Starting sync cycle #3
+2025-09-30 18:25:14 | INFO     | Found 1 DBF file(s) in RMan_Export
+2025-09-30 18:25:14 | INFO     | Processing: AnyConv.com__dummy_pos.dbf
+2025-09-30 18:25:14 | INFO     | Detecting changes in AnyConv.com__dummy_pos.dbf
+2025-09-30 18:25:14 | INFO     | Reading DBF file: RMan_Export/AnyConv.com__dummy_pos.dbf
+2025-09-30 18:25:14 | INFO     | Successfully read 5 records from RMan_Export/AnyConv.com__dummy_pos.dbf
+2025-09-30 18:25:14 | INFO     | Change detection complete for AnyConv.com__dummy_pos.dbf:
+2025-09-30 18:25:14 | INFO     |   New records: 0
+2025-09-30 18:25:14 | INFO     |   Updated records: 0
+2025-09-30 18:25:14 | INFO     |   Deleted records: 0
+2025-09-30 18:25:14 | INFO     |   Unchanged records: 5
+2025-09-30 18:25:14 | INFO     |   Max DOC_NO: 0
+2025-09-30 18:25:14 | INFO     | No changes detected in AnyConv.com__dummy_pos.dbf
+2025-09-30 18:25:14 | INFO     | ============================================================
+2025-09-30 18:25:14 | INFO     | Sync Cycle #3 Complete
+2025-09-30 18:25:14 | INFO     |   Duration: 0.01 seconds
+2025-09-30 18:25:14 | INFO     |   Files Processed: 1
+2025-09-30 18:25:14 | INFO     |   New Records: 0
+2025-09-30 18:25:14 | INFO     |   Updated Records: 0
+2025-09-30 18:25:14 | INFO     |   Deleted Records: 0
+2025-09-30 18:25:14 | INFO     |   CSV Files Created: 0
+2025-09-30 18:25:14 | INFO     | ============================================================
+2025-09-30 18:25:24 | INFO     | Received signal 2. Shutting down...
+2025-09-30 18:25:24 | INFO     | Stopping ESL Middleware...
+2025-09-30 18:25:24 | SUCCESS  | ✅ Middleware stopped gracefully

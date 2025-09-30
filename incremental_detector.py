@@ -119,7 +119,7 @@ class IncrementalDetector:
         self.dbf_reader = DBFReader(config)
         
     def calculate_record_checksum(self, record: Dict, 
-                                 exclude_fields: List[str] = None) -> str:
+                                 exclude_fields: Optional[List[str]] = None) -> str:
         """
         Calculate MD5 checksum of a record for change detection
         
