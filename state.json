@@ -1,0 +1,45 @@
+{
+  "AnyConv.com__dummy_pos.dbf": {
+    "last_processed": "2025-09-30T01:40:49.817400",
+    "last_doc_no": 0,
+    "records": {
+      "SKU001": {
+        "record_id": "SKU001",
+        "checksum": "2085e9d3d4a0d85154956331d6af8614",
+        "last_seen": "2025-09-30T01:40:49.817400",
+        "doc_no": 1001,
+        "deleted": false
+      },
+      "SKU002": {
+        "record_id": "SKU002",
+        "checksum": "5ff066c50f0dbb958647b987add58737",
+        "last_seen": "2025-09-30T01:40:49.817400",
+        "doc_no": 1002,
+        "deleted": false
+      },
+      "SKU003": {
+        "record_id": "SKU003",
+        "checksum": "41c9b93bd14d129de31bef894ffd8077",
+        "last_seen": "2025-09-30T01:40:49.817400",
+        "doc_no": 1003,
+        "deleted": false
+      },
+      "SKU004": {
+        "record_id": "SKU004",
+        "checksum": "3ca57f21ee3fa78d8a2e19a32be0aa18",
+        "last_seen": "2025-09-30T01:40:49.817400",
+        "doc_no": 1004,
+        "deleted": false
+      },
+      "SKU005": {
+        "record_id": "SKU005",
+        "checksum": "086ae4b480bc62d24720264c18a7794c",
+        "last_seen": "2025-09-30T01:40:49.817400",
+        "doc_no": 1005,
+        "deleted": false
+      }
+    },
+    "file_checksum": null,
+    "last_modified": "2025-09-30T01:34:31.615093"
+  }
+}
