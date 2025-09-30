@@ -7,3 +7,27 @@
 2025-09-30 01:00:26 | DEBUG | Ensured directory exists: ./ESL_Middleware_Logs
 2025-09-30 01:00:26 | INFO | Found 0 DBF file(s) in RMan_Export
 2025-09-30 01:00:34 | INFO | Found 0 DBF file(s) in RMan_Export
+2025-09-30 01:31:55 | INFO | ==================================================
+2025-09-30 01:31:55 | INFO | ESL Synchronization Middleware Started
+2025-09-30 01:31:55 | INFO | DBF Input Directory: ./RMan_Export
+2025-09-30 01:31:55 | INFO | CSV Output Directory: ./ESL_Sync
+2025-09-30 01:31:55 | DEBUG | Ensured directory exists: ./RMan_Export
+2025-09-30 01:31:55 | DEBUG | Ensured directory exists: ./ESL_Sync
+2025-09-30 01:31:55 | DEBUG | Ensured directory exists: ./ESL_Middleware_Logs
+2025-09-30 01:31:55 | INFO | Found 1 DBF file(s) in RMan_Export
+2025-09-30 01:31:55 | INFO | DBF Schema extracted: 5 fields
+2025-09-30 01:31:55 | INFO | Reading DBF file: RMan_Export/dummy_pos.dbf
+2025-09-30 01:31:55 | INFO | Successfully read 0 records from RMan_Export/dummy_pos.dbf
+2025-09-30 01:31:55 | WARNING | No records to display
+2025-09-30 01:35:28 | INFO | ==================================================
+2025-09-30 01:35:28 | INFO | ESL Synchronization Middleware Started
+2025-09-30 01:35:28 | INFO | DBF Input Directory: ./RMan_Export
+2025-09-30 01:35:28 | INFO | CSV Output Directory: ./ESL_Sync
+2025-09-30 01:35:28 | DEBUG | Ensured directory exists: ./RMan_Export
+2025-09-30 01:35:28 | DEBUG | Ensured directory exists: ./ESL_Sync
+2025-09-30 01:35:29 | DEBUG | Ensured directory exists: ./ESL_Middleware_Logs
+2025-09-30 01:35:29 | INFO | Found 1 DBF file(s) in RMan_Export
+2025-09-30 01:35:29 | INFO | DBF Schema extracted: 5 fields
+2025-09-30 01:35:29 | INFO | Reading DBF file: RMan_Export/AnyConv.com__dummy_pos.dbf
+2025-09-30 01:35:29 | INFO | Successfully read 5 records from RMan_Export/AnyConv.com__dummy_pos.dbf
+2025-09-30 01:35:29 | INFO | Sample data displayed: 10 records shown
