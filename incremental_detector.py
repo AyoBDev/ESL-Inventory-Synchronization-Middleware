@@ -17,7 +17,7 @@ from loguru import logger
 import pandas as pd
 
 # Import from Step 1
-from dbf_reader import Config, DBFReader
+from dbf_reader_with_memo import Config, EnhancedDBFReader as DBFReader
 
 
 class ChangeType(Enum):
@@ -350,11 +350,11 @@ def demonstrate_incremental_detection():
     # Process each DBF file
     for dbf_file in dbf_files:
         print(f"\n" + "-" * 80)
-        print(f"Processing: {dbf_file.name}")
+        print(f"Processing: {dbf_file[0].name}")
         print("-" * 80)
         
         # Determine file type and ID field
-        file_name_upper = dbf_file.name.upper()
+        file_name_upper = dbf_file[0].name.upper()
         if 'STOCK' in file_name_upper:
             id_field = 'PART_NO'
             track_doc = False
@@ -369,7 +369,7 @@ def demonstrate_incremental_detection():
             print(f"File Type: Unknown (using default ID field: {id_field})")
         
         # Detect changes
-        changes = detector.detect_changes(dbf_file, id_field=id_field, track_doc_no=track_doc)
+        changes = detector.detect_changes(dbf_file[0], id_field=id_field, track_doc_no=track_doc)
         
         # Display change summary
         print(f"\nChange Summary:")
@@ -397,7 +397,7 @@ def demonstrate_incremental_detection():
         
         # Simulate running again to show incremental behavior
         print(f"\n🔁 Running detection again (should show no changes)...")
-        changes2 = detector.detect_changes(dbf_file, id_field=id_field, track_doc_no=track_doc)
+        changes2 = detector.detect_changes(dbf_file[0], id_field=id_field, track_doc_no=track_doc)
         print(f"  Second run - New: {len(changes2['new'])}, Updated: {len(changes2['updated'])}")
     
     print("\n" + "=" * 80)

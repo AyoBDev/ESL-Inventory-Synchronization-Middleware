@@ -7,7 +7,7 @@ import os
 import csv
 import json
 from pathlib import Path
-from typing import Dict, List, Any, Optional
+from typing import Dict, List, Any, Optional, Callable
 from datetime import datetime
 from dataclasses import dataclass, field
 from decimal import Decimal
@@ -18,7 +18,8 @@ from loguru import logger
 import pandas as pd
 
 # Import from previous steps
-from dbf_reader import Config
+# from dbf_reader import Config
+from dbf_reader_with_memo import Config, EnhancedDBFReader as DBFReader
 from incremental_detector import IncrementalDetector, StateTracker, ChangeType
 
 
@@ -52,7 +53,7 @@ class FieldMapping:
     """Defines mapping between DBF fields and ESL CSV fields"""
     dbf_field: str
     esl_field: str
-    transform_func: Optional[callable] = None
+    transform_func: Optional['Callable[[Any], Any]'] = None
     default_value: Any = None
     
     def apply(self, value: Any) -> Any:
@@ -164,7 +165,7 @@ class DataTransformer:
             if field.upper() in record_fields_upper:
                 return record_fields_upper[field.upper()]
         
-        return None
+        return ""
     
     def transform_record(self, dbf_record: Dict[str, Any], 
                         file_type: str = 'STOCK',
@@ -327,7 +328,7 @@ class DataTransformer:
         """
         if not dbf_records:
             logger.warning("No records to transform")
-            return None
+            return ""
         
         # Detect file type if not provided
         if file_type is None:
@@ -350,7 +351,7 @@ class DataTransformer:
         
         if not esl_records:
             logger.warning("No records successfully transformed")
-            return None
+            return ""
         
         # Generate output filename
         csv_filename = self.generate_csv_filename(source_file_name)
@@ -387,11 +388,11 @@ def demonstrate_transformation():
     # Process each DBF file
     for dbf_file in dbf_files:
         print(f"\n" + "-" * 80)
-        print(f"Processing: {dbf_file.name}")
+        print(f"Processing: {dbf_file[0].name}")
         print("-" * 80)
         
         # Detect file type
-        file_type = transformer.detect_file_type(dbf_file.name)
+        file_type = transformer.detect_file_type(dbf_file[0].name)
         print(f"📁 File Type: {file_type}")
         
         # Determine ID field
@@ -399,7 +400,7 @@ def demonstrate_transformation():
         
         # Detect changes
         print(f"\n🔍 Detecting changes...")
-        changes = detector.detect_changes(dbf_file, id_field=id_field)
+        changes = detector.detect_changes(dbf_file[0], id_field=id_field)
         
         # Get records that need synchronization
         sync_records = []
@@ -437,7 +438,7 @@ def demonstrate_transformation():
         print(f"\n💾 Writing CSV file...")
         csv_path = transformer.transform_and_write_batch(
             sync_records, 
-            dbf_file.name,
+            dbf_file[0].name,
             file_type
         )
         

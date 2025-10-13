@@ -248,7 +248,7 @@ def main():
         print("-" * 80)
         schema = reader.get_dbf_schema(first_file)
         for field_name, field_info in schema.items():
-            print(f"  {field_name:20s}: Type={field_info['type']}, Length={field_info['length']}")
+            print(f"  {field_name:20s}: Type={field_info}, Length=N/A")
         
         # Read and display sample records
         records = reader.read_dbf_file(first_file, limit=100)  # Read up to 100 records

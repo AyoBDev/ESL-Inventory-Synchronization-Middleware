@@ -1,0 +1,6 @@
+2025-10-10 15:57:55 | ERROR | Error reading DBF file RMan_Export/sample.dbf: missing memo file for RMan_Export/sample.dbf
+
+2025-10-10 15:57:55 | ERROR | Error detecting changes in RMan_Export/sample.dbf: missing memo file for RMan_Export/sample.dbf
+
+2025-10-10 15:57:55 | ERROR | Error processing sample.dbf: missing memo file for RMan_Export/sample.dbf
+

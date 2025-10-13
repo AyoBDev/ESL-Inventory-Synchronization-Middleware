@@ -22,9 +22,9 @@ from retrying import retry
 import filelock
 
 # Import our modules
-from dbf_reader import Config, DBFReader
+from dbf_reader_with_memo import Config as DBFConfig, EnhancedDBFReader as DBFReader
 from incremental_detector import IncrementalDetector, StateTracker
-from data_transformer import DataTransformer
+from data_transformer import DataTransformer, Config as TransformerConfig
 
 
 class ESLMiddleware:
@@ -32,7 +32,7 @@ class ESLMiddleware:
     
     def __init__(self, config_file: str = "config.json"):
         """Initialize the middleware with configuration"""
-        self.config = Config(config_file)
+        self.config = DBFConfig(config_file)
         self.running = False
         self.sync_in_progress = False
         self.last_sync_time = None
@@ -43,7 +43,7 @@ class ESLMiddleware:
         self.state_tracker = StateTracker(self.config.STATE_FILE)
         self.dbf_reader = DBFReader(self.config)
         self.detector = IncrementalDetector(self.config, self.state_tracker)
-        self.transformer = DataTransformer(self.config)
+        self.transformer = DataTransformer(TransformerConfig(config_file))
         
         # Setup logging
         self.setup_enhanced_logging()
@@ -222,7 +222,9 @@ class ESLMiddleware:
                 'errors': []
             }
             
-            for dbf_file in dbf_files:
+            for dbf_tuple in dbf_files:
+                # If dbf_tuple is a tuple, extract the first element (Path), else use as is
+                dbf_file = dbf_tuple[0] if isinstance(dbf_tuple, tuple) else dbf_tuple
                 file_stats = self.process_single_file(dbf_file)
                 
                 total_stats['files_processed'] += 1

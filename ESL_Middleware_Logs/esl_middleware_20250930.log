@@ -223,3 +223,33 @@
 2025-09-30 18:25:24 | INFO     | Received signal 2. Shutting down...
 2025-09-30 18:25:24 | INFO     | Stopping ESL Middleware...
 2025-09-30 18:25:24 | SUCCESS  | ✅ Middleware stopped gracefully
+2025-09-30 19:18:20 | INFO     | ================================================================================
+2025-09-30 19:18:20 | INFO     | ESL INVENTORY SYNCHRONIZATION MIDDLEWARE STARTED
+2025-09-30 19:18:20 | INFO     | Version: 1.0.0 (Cross-Platform)
+2025-09-30 19:18:20 | INFO     | Platform: Darwin 24.5.0
+2025-09-30 19:18:20 | INFO     | Python: 3.13.7
+2025-09-30 19:18:20 | INFO     | Config: config.json
+2025-09-30 19:18:20 | INFO     | Poll Interval: 30 seconds
+2025-09-30 19:18:20 | INFO     | ================================================================================
+2025-09-30 19:18:20 | INFO     | Starting sync cycle #1
+2025-09-30 19:18:20 | INFO     | Found 1 DBF file(s) in RMan_Export
+2025-09-30 19:18:20 | INFO     | Processing: AnyConv.com__dummy_pos.dbf
+2025-09-30 19:18:20 | INFO     | Detecting changes in AnyConv.com__dummy_pos.dbf
+2025-09-30 19:18:20 | INFO     | Reading DBF file: RMan_Export/AnyConv.com__dummy_pos.dbf
+2025-09-30 19:18:20 | INFO     | Successfully read 5 records from RMan_Export/AnyConv.com__dummy_pos.dbf
+2025-09-30 19:18:20 | INFO     | Change detection complete for AnyConv.com__dummy_pos.dbf:
+2025-09-30 19:18:20 | INFO     |   New records: 0
+2025-09-30 19:18:20 | INFO     |   Updated records: 0
+2025-09-30 19:18:20 | INFO     |   Deleted records: 0
+2025-09-30 19:18:20 | INFO     |   Unchanged records: 5
+2025-09-30 19:18:20 | INFO     |   Max DOC_NO: 0
+2025-09-30 19:18:20 | INFO     | No changes detected in AnyConv.com__dummy_pos.dbf
+2025-09-30 19:18:20 | INFO     | ============================================================
+2025-09-30 19:18:20 | INFO     | Sync Cycle #1 Complete
+2025-09-30 19:18:20 | INFO     |   Duration: 0.00 seconds
+2025-09-30 19:18:20 | INFO     |   Files Processed: 1
+2025-09-30 19:18:20 | INFO     |   New Records: 0
+2025-09-30 19:18:20 | INFO     |   Updated Records: 0
+2025-09-30 19:18:20 | INFO     |   Deleted Records: 0
+2025-09-30 19:18:20 | INFO     |   CSV Files Created: 0
+2025-09-30 19:18:20 | INFO     | ============================================================

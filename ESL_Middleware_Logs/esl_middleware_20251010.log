@@ -1,0 +1,676 @@
+2025-10-10 15:53:23 | INFO     | ================================================================================
+2025-10-10 15:53:23 | INFO     | ESL INVENTORY SYNCHRONIZATION MIDDLEWARE STARTED
+2025-10-10 15:53:23 | INFO     | Version: 1.0.0 (Cross-Platform)
+2025-10-10 15:53:23 | INFO     | Platform: Darwin 24.5.0
+2025-10-10 15:53:23 | INFO     | Python: 3.13.7
+2025-10-10 15:53:23 | INFO     | Config: config.json
+2025-10-10 15:53:23 | INFO     | Poll Interval: 30 seconds
+2025-10-10 15:53:23 | INFO     | ================================================================================
+2025-10-10 15:53:23 | INFO     | Starting sync cycle #1
+2025-10-10 15:53:23 | INFO     | Found standalone DBF: AnyConv.com__dummy_pos.dbf
+2025-10-10 15:53:23 | INFO     | Total: 1 DBF file(s), 0 with memo files
+2025-10-10 15:53:23 | INFO     | Processing: AnyConv.com__dummy_pos.dbf
+2025-10-10 15:53:23 | INFO     | Detecting changes in AnyConv.com__dummy_pos.dbf
+2025-10-10 15:53:23 | INFO     | Reading DBF file: RMan_Export/AnyConv.com__dummy_pos.dbf
+2025-10-10 15:53:23 | INFO     | Successfully read 5 records from RMan_Export/AnyConv.com__dummy_pos.dbf
+2025-10-10 15:53:23 | INFO     | Change detection complete for AnyConv.com__dummy_pos.dbf:
+2025-10-10 15:53:23 | INFO     |   New records: 0
+2025-10-10 15:53:23 | INFO     |   Updated records: 5
+2025-10-10 15:53:23 | INFO     |   Deleted records: 0
+2025-10-10 15:53:23 | INFO     |   Unchanged records: 0
+2025-10-10 15:53:23 | INFO     |   Max DOC_NO: 0
+2025-10-10 15:53:23 | INFO     | Transforming 5 records from AnyConv.com__dummy_pos.dbf (type: STOCK)
+2025-10-10 15:53:23 | INFO     | CSV file created: ESL_Sync/ANYCONV.COM__DUMMY_POS_20251010155323.csv (5 records)
+2025-10-10 15:53:23 | INFO     | Successfully transformed 5 records to ESL_Sync/ANYCONV.COM__DUMMY_POS_20251010155323.csv
+2025-10-10 15:53:23 | SUCCESS  | ✅ CSV created: ANYCONV.COM__DUMMY_POS_20251010155323.csv (5 records)
+2025-10-10 15:53:23 | INFO     | ============================================================
+2025-10-10 15:53:23 | INFO     | Sync Cycle #1 Complete
+2025-10-10 15:53:23 | INFO     |   Duration: 0.00 seconds
+2025-10-10 15:53:23 | INFO     |   Files Processed: 1
+2025-10-10 15:53:23 | INFO     |   New Records: 0
+2025-10-10 15:53:23 | INFO     |   Updated Records: 5
+2025-10-10 15:53:23 | INFO     |   Deleted Records: 0
+2025-10-10 15:53:23 | INFO     |   CSV Files Created: 1
+2025-10-10 15:53:23 | INFO     | ============================================================
+2025-10-10 15:57:55 | INFO     | ================================================================================
+2025-10-10 15:57:55 | INFO     | ESL INVENTORY SYNCHRONIZATION MIDDLEWARE STARTED
+2025-10-10 15:57:55 | INFO     | Version: 1.0.0 (Cross-Platform)
+2025-10-10 15:57:55 | INFO     | Platform: Darwin 24.5.0
+2025-10-10 15:57:55 | INFO     | Python: 3.13.7
+2025-10-10 15:57:55 | INFO     | Config: config.json
+2025-10-10 15:57:55 | INFO     | Poll Interval: 30 seconds
+2025-10-10 15:57:55 | INFO     | ================================================================================
+2025-10-10 15:57:55 | INFO     | Starting sync cycle #1
+2025-10-10 15:57:55 | INFO     | Found standalone DBF: sample.dbf
+2025-10-10 15:57:55 | INFO     | Total: 1 DBF file(s), 0 with memo files
+2025-10-10 15:57:55 | INFO     | Processing: sample.dbf
+2025-10-10 15:57:55 | INFO     | Detecting changes in sample.dbf
+2025-10-10 15:57:55 | INFO     | Reading DBF file: RMan_Export/sample.dbf
+2025-10-10 15:57:55 | ERROR    | Error reading DBF file RMan_Export/sample.dbf: missing memo file for RMan_Export/sample.dbf
+2025-10-10 15:57:55 | ERROR    | Error detecting changes in RMan_Export/sample.dbf: missing memo file for RMan_Export/sample.dbf
+2025-10-10 15:57:55 | ERROR    | Error processing sample.dbf: missing memo file for RMan_Export/sample.dbf
+2025-10-10 15:57:55 | INFO     | ============================================================
+2025-10-10 15:57:55 | INFO     | Sync Cycle #1 Complete
+2025-10-10 15:57:55 | INFO     |   Duration: 0.02 seconds
+2025-10-10 15:57:55 | INFO     |   Files Processed: 1
+2025-10-10 15:57:55 | INFO     |   New Records: 0
+2025-10-10 15:57:55 | INFO     |   Updated Records: 0
+2025-10-10 15:57:55 | INFO     |   Deleted Records: 0
+2025-10-10 15:57:55 | INFO     |   CSV Files Created: 0
+2025-10-10 15:57:55 | WARNING  |   Errors: 1
+2025-10-10 15:57:55 | WARNING  |     - sample.dbf: missing memo file for RMan_Export/sample.dbf
+2025-10-10 15:57:55 | INFO     | ============================================================
+2025-10-10 16:37:35 | INFO     | ================================================================================
+2025-10-10 16:37:35 | INFO     | ESL INVENTORY SYNCHRONIZATION MIDDLEWARE STARTED
+2025-10-10 16:37:35 | INFO     | Version: 1.0.0 (Cross-Platform)
+2025-10-10 16:37:35 | INFO     | Platform: Darwin 24.5.0
+2025-10-10 16:37:35 | INFO     | Python: 3.13.7
+2025-10-10 16:37:35 | INFO     | Config: config.json
+2025-10-10 16:37:35 | INFO     | Poll Interval: 30 seconds
+2025-10-10 16:37:35 | INFO     | ================================================================================
+2025-10-10 16:37:35 | INFO     | Starting sync cycle #1
+2025-10-10 16:37:35 | INFO     | Found standalone DBF: stock.dbf
+2025-10-10 16:37:35 | INFO     | Total: 1 DBF file(s), 0 with memo files
+2025-10-10 16:37:35 | INFO     | Processing: stock.dbf
+2025-10-10 16:37:35 | INFO     | Detecting changes in stock.dbf
+2025-10-10 16:37:35 | INFO     | Reading DBF file: RMan_Export/stock.dbf
+2025-10-10 16:37:35 | INFO     | Successfully read 12 records from RMan_Export/stock.dbf
+2025-10-10 16:37:35 | INFO     | Change detection complete for stock.dbf:
+2025-10-10 16:37:35 | INFO     |   New records: 12
+2025-10-10 16:37:35 | INFO     |   Updated records: 0
+2025-10-10 16:37:35 | INFO     |   Deleted records: 0
+2025-10-10 16:37:35 | INFO     |   Unchanged records: 0
+2025-10-10 16:37:35 | INFO     |   Max DOC_NO: 0
+2025-10-10 16:37:35 | INFO     | Transforming 12 records from stock.dbf (type: STOCK)
+2025-10-10 16:37:35 | INFO     | CSV file created: ESL_Sync/STOCK_20251010163735.csv (12 records)
+2025-10-10 16:37:35 | INFO     | Successfully transformed 12 records to ESL_Sync/STOCK_20251010163735.csv
+2025-10-10 16:37:35 | SUCCESS  | ✅ CSV created: STOCK_20251010163735.csv (12 records)
+2025-10-10 16:37:35 | INFO     | ============================================================
+2025-10-10 16:37:35 | INFO     | Sync Cycle #1 Complete
+2025-10-10 16:37:35 | INFO     |   Duration: 0.00 seconds
+2025-10-10 16:37:35 | INFO     |   Files Processed: 1
+2025-10-10 16:37:35 | INFO     |   New Records: 12
+2025-10-10 16:37:35 | INFO     |   Updated Records: 0
+2025-10-10 16:37:35 | INFO     |   Deleted Records: 0
+2025-10-10 16:37:35 | INFO     |   CSV Files Created: 1
+2025-10-10 16:37:35 | INFO     | ============================================================
+2025-10-10 16:37:53 | INFO     | ================================================================================
+2025-10-10 16:37:53 | INFO     | ESL INVENTORY SYNCHRONIZATION MIDDLEWARE STARTED
+2025-10-10 16:37:53 | INFO     | Version: 1.0.0 (Cross-Platform)
+2025-10-10 16:37:53 | INFO     | Platform: Darwin 24.5.0
+2025-10-10 16:37:53 | INFO     | Python: 3.13.7
+2025-10-10 16:37:53 | INFO     | Config: config.json
+2025-10-10 16:37:53 | INFO     | Poll Interval: 30 seconds
+2025-10-10 16:37:53 | INFO     | ================================================================================
+2025-10-10 16:37:53 | INFO     | Starting ESL Middleware...
+2025-10-10 16:37:53 | INFO     | Running initial synchronization...
+2025-10-10 16:37:53 | INFO     | Starting sync cycle #1
+2025-10-10 16:37:53 | INFO     | Found standalone DBF: stock.dbf
+2025-10-10 16:37:53 | INFO     | Total: 1 DBF file(s), 0 with memo files
+2025-10-10 16:37:53 | INFO     | Processing: stock.dbf
+2025-10-10 16:37:53 | INFO     | Detecting changes in stock.dbf
+2025-10-10 16:37:53 | INFO     | Reading DBF file: RMan_Export/stock.dbf
+2025-10-10 16:37:53 | INFO     | Successfully read 12 records from RMan_Export/stock.dbf
+2025-10-10 16:37:53 | INFO     | Change detection complete for stock.dbf:
+2025-10-10 16:37:53 | INFO     |   New records: 0
+2025-10-10 16:37:53 | INFO     |   Updated records: 0
+2025-10-10 16:37:53 | INFO     |   Deleted records: 0
+2025-10-10 16:37:53 | INFO     |   Unchanged records: 12
+2025-10-10 16:37:53 | INFO     |   Max DOC_NO: 0
+2025-10-10 16:37:53 | INFO     | No changes detected in stock.dbf
+2025-10-10 16:37:53 | INFO     | ============================================================
+2025-10-10 16:37:53 | INFO     | Sync Cycle #1 Complete
+2025-10-10 16:37:53 | INFO     |   Duration: 0.00 seconds
+2025-10-10 16:37:53 | INFO     |   Files Processed: 1
+2025-10-10 16:37:53 | INFO     |   New Records: 0
+2025-10-10 16:37:53 | INFO     |   Updated Records: 0
+2025-10-10 16:37:53 | INFO     |   Deleted Records: 0
+2025-10-10 16:37:53 | INFO     |   CSV Files Created: 0
+2025-10-10 16:37:53 | INFO     | ============================================================
+2025-10-10 16:37:53 | SUCCESS  | ✅ Middleware started. Syncing every 30 seconds
+2025-10-10 16:37:53 | INFO     | Press Ctrl+C to stop
+2025-10-10 16:38:23 | INFO     | Starting sync cycle #2
+2025-10-10 16:38:23 | INFO     | Found standalone DBF: stock.dbf
+2025-10-10 16:38:23 | INFO     | Total: 1 DBF file(s), 0 with memo files
+2025-10-10 16:38:23 | INFO     | Processing: stock.dbf
+2025-10-10 16:38:23 | INFO     | Detecting changes in stock.dbf
+2025-10-10 16:38:23 | INFO     | Reading DBF file: RMan_Export/stock.dbf
+2025-10-10 16:38:23 | INFO     | Successfully read 12 records from RMan_Export/stock.dbf
+2025-10-10 16:38:23 | INFO     | Change detection complete for stock.dbf:
+2025-10-10 16:38:23 | INFO     |   New records: 0
+2025-10-10 16:38:23 | INFO     |   Updated records: 0
+2025-10-10 16:38:23 | INFO     |   Deleted records: 0
+2025-10-10 16:38:23 | INFO     |   Unchanged records: 12
+2025-10-10 16:38:23 | INFO     |   Max DOC_NO: 0
+2025-10-10 16:38:23 | INFO     | No changes detected in stock.dbf
+2025-10-10 16:38:23 | INFO     | ============================================================
+2025-10-10 16:38:23 | INFO     | Sync Cycle #2 Complete
+2025-10-10 16:38:23 | INFO     |   Duration: 0.02 seconds
+2025-10-10 16:38:23 | INFO     |   Files Processed: 1
+2025-10-10 16:38:23 | INFO     |   New Records: 0
+2025-10-10 16:38:23 | INFO     |   Updated Records: 0
+2025-10-10 16:38:23 | INFO     |   Deleted Records: 0
+2025-10-10 16:38:23 | INFO     |   CSV Files Created: 0
+2025-10-10 16:38:23 | INFO     | ============================================================
+2025-10-10 16:38:46 | INFO     | Received signal 2. Shutting down...
+2025-10-10 16:38:46 | INFO     | Stopping ESL Middleware...
+2025-10-10 16:38:46 | SUCCESS  | ✅ Middleware stopped gracefully
+2025-10-10 16:48:06 | INFO     | ================================================================================
+2025-10-10 16:48:06 | INFO     | ESL INVENTORY SYNCHRONIZATION MIDDLEWARE STARTED
+2025-10-10 16:48:06 | INFO     | Version: 1.0.0 (Cross-Platform)
+2025-10-10 16:48:06 | INFO     | Platform: Darwin 24.5.0
+2025-10-10 16:48:06 | INFO     | Python: 3.13.7
+2025-10-10 16:48:06 | INFO     | Config: config.json
+2025-10-10 16:48:06 | INFO     | Poll Interval: 30 seconds
+2025-10-10 16:48:06 | INFO     | ================================================================================
+2025-10-10 16:48:06 | INFO     | Starting ESL Middleware...
+2025-10-10 16:48:06 | INFO     | Running initial synchronization...
+2025-10-10 16:48:06 | INFO     | Starting sync cycle #1
+2025-10-10 16:48:06 | INFO     | Found standalone DBF: stock.dbf
+2025-10-10 16:48:06 | INFO     | Total: 1 DBF file(s), 0 with memo files
+2025-10-10 16:48:06 | INFO     | Processing: stock.dbf
+2025-10-10 16:48:06 | INFO     | Detecting changes in stock.dbf
+2025-10-10 16:48:06 | INFO     | Reading DBF file: RMan_Export/stock.dbf
+2025-10-10 16:48:06 | INFO     | Successfully read 13 records from RMan_Export/stock.dbf
+2025-10-10 16:48:06 | INFO     | Change detection complete for stock.dbf:
+2025-10-10 16:48:06 | INFO     |   New records: 2
+2025-10-10 16:48:06 | INFO     |   Updated records: 0
+2025-10-10 16:48:06 | INFO     |   Deleted records: 1
+2025-10-10 16:48:06 | INFO     |   Unchanged records: 11
+2025-10-10 16:48:06 | INFO     |   Max DOC_NO: 0
+2025-10-10 16:48:06 | INFO     | Transforming 2 records from stock.dbf (type: STOCK)
+2025-10-10 16:48:06 | INFO     | CSV file created: ESL_Sync/STOCK_20251010164806.csv (2 records)
+2025-10-10 16:48:06 | INFO     | Successfully transformed 2 records to ESL_Sync/STOCK_20251010164806.csv
+2025-10-10 16:48:06 | SUCCESS  | ✅ CSV created: STOCK_20251010164806.csv (2 records)
+2025-10-10 16:48:06 | INFO     | ============================================================
+2025-10-10 16:48:06 | INFO     | Sync Cycle #1 Complete
+2025-10-10 16:48:06 | INFO     |   Duration: 0.00 seconds
+2025-10-10 16:48:06 | INFO     |   Files Processed: 1
+2025-10-10 16:48:06 | INFO     |   New Records: 2
+2025-10-10 16:48:06 | INFO     |   Updated Records: 0
+2025-10-10 16:48:06 | INFO     |   Deleted Records: 1
+2025-10-10 16:48:06 | INFO     |   CSV Files Created: 1
+2025-10-10 16:48:06 | INFO     | ============================================================
+2025-10-10 16:48:06 | SUCCESS  | ✅ Middleware started. Syncing every 30 seconds
+2025-10-10 16:48:06 | INFO     | Press Ctrl+C to stop
+2025-10-10 16:48:36 | INFO     | Starting sync cycle #2
+2025-10-10 16:48:36 | INFO     | Found standalone DBF: stock.dbf
+2025-10-10 16:48:36 | INFO     | Total: 1 DBF file(s), 0 with memo files
+2025-10-10 16:48:36 | INFO     | Processing: stock.dbf
+2025-10-10 16:48:36 | INFO     | Detecting changes in stock.dbf
+2025-10-10 16:48:36 | INFO     | Reading DBF file: RMan_Export/stock.dbf
+2025-10-10 16:48:36 | INFO     | Successfully read 13 records from RMan_Export/stock.dbf
+2025-10-10 16:48:36 | INFO     | Change detection complete for stock.dbf:
+2025-10-10 16:48:36 | INFO     |   New records: 0
+2025-10-10 16:48:36 | INFO     |   Updated records: 0
+2025-10-10 16:48:36 | INFO     |   Deleted records: 0
+2025-10-10 16:48:36 | INFO     |   Unchanged records: 13
+2025-10-10 16:48:36 | INFO     |   Max DOC_NO: 0
+2025-10-10 16:48:36 | INFO     | No changes detected in stock.dbf
+2025-10-10 16:48:36 | INFO     | ============================================================
+2025-10-10 16:48:36 | INFO     | Sync Cycle #2 Complete
+2025-10-10 16:48:36 | INFO     |   Duration: 0.01 seconds
+2025-10-10 16:48:36 | INFO     |   Files Processed: 1
+2025-10-10 16:48:36 | INFO     |   New Records: 0
+2025-10-10 16:48:36 | INFO     |   Updated Records: 0
+2025-10-10 16:48:36 | INFO     |   Deleted Records: 0
+2025-10-10 16:48:36 | INFO     |   CSV Files Created: 0
+2025-10-10 16:48:36 | INFO     | ============================================================
+2025-10-10 16:49:06 | INFO     | Starting sync cycle #3
+2025-10-10 16:49:06 | INFO     | Found standalone DBF: stock.dbf
+2025-10-10 16:49:06 | INFO     | Total: 1 DBF file(s), 0 with memo files
+2025-10-10 16:49:06 | INFO     | Processing: stock.dbf
+2025-10-10 16:49:06 | INFO     | Detecting changes in stock.dbf
+2025-10-10 16:49:06 | INFO     | Reading DBF file: RMan_Export/stock.dbf
+2025-10-10 16:49:06 | INFO     | Successfully read 13 records from RMan_Export/stock.dbf
+2025-10-10 16:49:06 | INFO     | Change detection complete for stock.dbf:
+2025-10-10 16:49:06 | INFO     |   New records: 0
+2025-10-10 16:49:06 | INFO     |   Updated records: 0
+2025-10-10 16:49:06 | INFO     |   Deleted records: 0
+2025-10-10 16:49:06 | INFO     |   Unchanged records: 13
+2025-10-10 16:49:06 | INFO     |   Max DOC_NO: 0
+2025-10-10 16:49:06 | INFO     | No changes detected in stock.dbf
+2025-10-10 16:49:06 | INFO     | ============================================================
+2025-10-10 16:49:06 | INFO     | Sync Cycle #3 Complete
+2025-10-10 16:49:06 | INFO     |   Duration: 0.02 seconds
+2025-10-10 16:49:06 | INFO     |   Files Processed: 1
+2025-10-10 16:49:06 | INFO     |   New Records: 0
+2025-10-10 16:49:06 | INFO     |   Updated Records: 0
+2025-10-10 16:49:06 | INFO     |   Deleted Records: 0
+2025-10-10 16:49:06 | INFO     |   CSV Files Created: 0
+2025-10-10 16:49:06 | INFO     | ============================================================
+2025-10-10 16:49:37 | INFO     | Starting sync cycle #4
+2025-10-10 16:49:37 | INFO     | Found standalone DBF: stock.dbf
+2025-10-10 16:49:37 | INFO     | Total: 1 DBF file(s), 0 with memo files
+2025-10-10 16:49:37 | INFO     | Processing: stock.dbf
+2025-10-10 16:49:37 | INFO     | Detecting changes in stock.dbf
+2025-10-10 16:49:37 | INFO     | Reading DBF file: RMan_Export/stock.dbf
+2025-10-10 16:49:37 | INFO     | Successfully read 13 records from RMan_Export/stock.dbf
+2025-10-10 16:49:37 | INFO     | Change detection complete for stock.dbf:
+2025-10-10 16:49:37 | INFO     |   New records: 0
+2025-10-10 16:49:37 | INFO     |   Updated records: 0
+2025-10-10 16:49:37 | INFO     |   Deleted records: 0
+2025-10-10 16:49:37 | INFO     |   Unchanged records: 13
+2025-10-10 16:49:37 | INFO     |   Max DOC_NO: 0
+2025-10-10 16:49:37 | INFO     | No changes detected in stock.dbf
+2025-10-10 16:49:37 | INFO     | ============================================================
+2025-10-10 16:49:37 | INFO     | Sync Cycle #4 Complete
+2025-10-10 16:49:37 | INFO     |   Duration: 0.03 seconds
+2025-10-10 16:49:37 | INFO     |   Files Processed: 1
+2025-10-10 16:49:37 | INFO     |   New Records: 0
+2025-10-10 16:49:37 | INFO     |   Updated Records: 0
+2025-10-10 16:49:37 | INFO     |   Deleted Records: 0
+2025-10-10 16:49:37 | INFO     |   CSV Files Created: 0
+2025-10-10 16:49:37 | INFO     | ============================================================
+2025-10-10 16:50:07 | INFO     | Starting sync cycle #5
+2025-10-10 16:50:07 | INFO     | Found standalone DBF: stock.dbf
+2025-10-10 16:50:07 | INFO     | Total: 1 DBF file(s), 0 with memo files
+2025-10-10 16:50:07 | INFO     | Processing: stock.dbf
+2025-10-10 16:50:07 | INFO     | Detecting changes in stock.dbf
+2025-10-10 16:50:07 | INFO     | Reading DBF file: RMan_Export/stock.dbf
+2025-10-10 16:50:07 | INFO     | Successfully read 13 records from RMan_Export/stock.dbf
+2025-10-10 16:50:07 | INFO     | Change detection complete for stock.dbf:
+2025-10-10 16:50:07 | INFO     |   New records: 0
+2025-10-10 16:50:07 | INFO     |   Updated records: 0
+2025-10-10 16:50:07 | INFO     |   Deleted records: 0
+2025-10-10 16:50:07 | INFO     |   Unchanged records: 13
+2025-10-10 16:50:07 | INFO     |   Max DOC_NO: 0
+2025-10-10 16:50:07 | INFO     | No changes detected in stock.dbf
+2025-10-10 16:50:07 | INFO     | ============================================================
+2025-10-10 16:50:07 | INFO     | Sync Cycle #5 Complete
+2025-10-10 16:50:07 | INFO     |   Duration: 0.02 seconds
+2025-10-10 16:50:07 | INFO     |   Files Processed: 1
+2025-10-10 16:50:07 | INFO     |   New Records: 0
+2025-10-10 16:50:07 | INFO     |   Updated Records: 0
+2025-10-10 16:50:07 | INFO     |   Deleted Records: 0
+2025-10-10 16:50:07 | INFO     |   CSV Files Created: 0
+2025-10-10 16:50:07 | INFO     | ============================================================
+2025-10-10 16:50:37 | INFO     | Starting sync cycle #6
+2025-10-10 16:50:37 | INFO     | Found standalone DBF: stock.dbf
+2025-10-10 16:50:37 | INFO     | Total: 1 DBF file(s), 0 with memo files
+2025-10-10 16:50:37 | INFO     | Processing: stock.dbf
+2025-10-10 16:50:37 | INFO     | Detecting changes in stock.dbf
+2025-10-10 16:50:37 | INFO     | Reading DBF file: RMan_Export/stock.dbf
+2025-10-10 16:50:37 | INFO     | Successfully read 13 records from RMan_Export/stock.dbf
+2025-10-10 16:50:37 | INFO     | Change detection complete for stock.dbf:
+2025-10-10 16:50:37 | INFO     |   New records: 0
+2025-10-10 16:50:37 | INFO     |   Updated records: 0
+2025-10-10 16:50:37 | INFO     |   Deleted records: 0
+2025-10-10 16:50:37 | INFO     |   Unchanged records: 13
+2025-10-10 16:50:37 | INFO     |   Max DOC_NO: 0
+2025-10-10 16:50:37 | INFO     | No changes detected in stock.dbf
+2025-10-10 16:50:37 | INFO     | ============================================================
+2025-10-10 16:50:37 | INFO     | Sync Cycle #6 Complete
+2025-10-10 16:50:37 | INFO     |   Duration: 0.03 seconds
+2025-10-10 16:50:37 | INFO     |   Files Processed: 1
+2025-10-10 16:50:37 | INFO     |   New Records: 0
+2025-10-10 16:50:37 | INFO     |   Updated Records: 0
+2025-10-10 16:50:37 | INFO     |   Deleted Records: 0
+2025-10-10 16:50:37 | INFO     |   CSV Files Created: 0
+2025-10-10 16:50:37 | INFO     | ============================================================
+2025-10-10 16:51:07 | INFO     | Starting sync cycle #7
+2025-10-10 16:51:07 | INFO     | Found standalone DBF: stock.dbf
+2025-10-10 16:51:07 | INFO     | Total: 1 DBF file(s), 0 with memo files
+2025-10-10 16:51:07 | INFO     | Processing: stock.dbf
+2025-10-10 16:51:07 | INFO     | Detecting changes in stock.dbf
+2025-10-10 16:51:07 | INFO     | Reading DBF file: RMan_Export/stock.dbf
+2025-10-10 16:51:07 | INFO     | Successfully read 13 records from RMan_Export/stock.dbf
+2025-10-10 16:51:07 | INFO     | Change detection complete for stock.dbf:
+2025-10-10 16:51:07 | INFO     |   New records: 0
+2025-10-10 16:51:07 | INFO     |   Updated records: 0
+2025-10-10 16:51:07 | INFO     |   Deleted records: 0
+2025-10-10 16:51:07 | INFO     |   Unchanged records: 13
+2025-10-10 16:51:07 | INFO     |   Max DOC_NO: 0
+2025-10-10 16:51:07 | INFO     | No changes detected in stock.dbf
+2025-10-10 16:51:07 | INFO     | ============================================================
+2025-10-10 16:51:07 | INFO     | Sync Cycle #7 Complete
+2025-10-10 16:51:07 | INFO     |   Duration: 0.02 seconds
+2025-10-10 16:51:07 | INFO     |   Files Processed: 1
+2025-10-10 16:51:07 | INFO     |   New Records: 0
+2025-10-10 16:51:07 | INFO     |   Updated Records: 0
+2025-10-10 16:51:07 | INFO     |   Deleted Records: 0
+2025-10-10 16:51:07 | INFO     |   CSV Files Created: 0
+2025-10-10 16:51:07 | INFO     | ============================================================
+2025-10-10 16:51:37 | INFO     | Starting sync cycle #8
+2025-10-10 16:51:37 | INFO     | Found standalone DBF: stock.dbf
+2025-10-10 16:51:37 | INFO     | Total: 1 DBF file(s), 0 with memo files
+2025-10-10 16:51:37 | INFO     | Processing: stock.dbf
+2025-10-10 16:51:37 | INFO     | Detecting changes in stock.dbf
+2025-10-10 16:51:37 | INFO     | Reading DBF file: RMan_Export/stock.dbf
+2025-10-10 16:51:37 | INFO     | Successfully read 13 records from RMan_Export/stock.dbf
+2025-10-10 16:51:37 | INFO     | Change detection complete for stock.dbf:
+2025-10-10 16:51:37 | INFO     |   New records: 0
+2025-10-10 16:51:37 | INFO     |   Updated records: 0
+2025-10-10 16:51:37 | INFO     |   Deleted records: 0
+2025-10-10 16:51:37 | INFO     |   Unchanged records: 13
+2025-10-10 16:51:37 | INFO     |   Max DOC_NO: 0
+2025-10-10 16:51:37 | INFO     | No changes detected in stock.dbf
+2025-10-10 16:51:37 | INFO     | ============================================================
+2025-10-10 16:51:37 | INFO     | Sync Cycle #8 Complete
+2025-10-10 16:51:37 | INFO     |   Duration: 0.02 seconds
+2025-10-10 16:51:37 | INFO     |   Files Processed: 1
+2025-10-10 16:51:37 | INFO     |   New Records: 0
+2025-10-10 16:51:37 | INFO     |   Updated Records: 0
+2025-10-10 16:51:37 | INFO     |   Deleted Records: 0
+2025-10-10 16:51:37 | INFO     |   CSV Files Created: 0
+2025-10-10 16:51:37 | INFO     | ============================================================
+2025-10-10 16:52:08 | INFO     | Starting sync cycle #9
+2025-10-10 16:52:08 | INFO     | Found standalone DBF: stock.dbf
+2025-10-10 16:52:08 | INFO     | Total: 1 DBF file(s), 0 with memo files
+2025-10-10 16:52:08 | INFO     | Processing: stock.dbf
+2025-10-10 16:52:08 | INFO     | Detecting changes in stock.dbf
+2025-10-10 16:52:08 | INFO     | Reading DBF file: RMan_Export/stock.dbf
+2025-10-10 16:52:08 | INFO     | Successfully read 13 records from RMan_Export/stock.dbf
+2025-10-10 16:52:08 | INFO     | Change detection complete for stock.dbf:
+2025-10-10 16:52:08 | INFO     |   New records: 0
+2025-10-10 16:52:08 | INFO     |   Updated records: 0
+2025-10-10 16:52:08 | INFO     |   Deleted records: 0
+2025-10-10 16:52:08 | INFO     |   Unchanged records: 13
+2025-10-10 16:52:08 | INFO     |   Max DOC_NO: 0
+2025-10-10 16:52:08 | INFO     | No changes detected in stock.dbf
+2025-10-10 16:52:08 | INFO     | ============================================================
+2025-10-10 16:52:08 | INFO     | Sync Cycle #9 Complete
+2025-10-10 16:52:08 | INFO     |   Duration: 0.02 seconds
+2025-10-10 16:52:08 | INFO     |   Files Processed: 1
+2025-10-10 16:52:08 | INFO     |   New Records: 0
+2025-10-10 16:52:08 | INFO     |   Updated Records: 0
+2025-10-10 16:52:08 | INFO     |   Deleted Records: 0
+2025-10-10 16:52:08 | INFO     |   CSV Files Created: 0
+2025-10-10 16:52:08 | INFO     | ============================================================
+2025-10-10 16:52:38 | INFO     | Starting sync cycle #10
+2025-10-10 16:52:38 | INFO     | Found standalone DBF: stock.dbf
+2025-10-10 16:52:38 | INFO     | Total: 1 DBF file(s), 0 with memo files
+2025-10-10 16:52:38 | INFO     | Processing: stock.dbf
+2025-10-10 16:52:38 | INFO     | Detecting changes in stock.dbf
+2025-10-10 16:52:38 | INFO     | Reading DBF file: RMan_Export/stock.dbf
+2025-10-10 16:52:38 | INFO     | Successfully read 13 records from RMan_Export/stock.dbf
+2025-10-10 16:52:38 | INFO     | Change detection complete for stock.dbf:
+2025-10-10 16:52:38 | INFO     |   New records: 0
+2025-10-10 16:52:38 | INFO     |   Updated records: 0
+2025-10-10 16:52:38 | INFO     |   Deleted records: 0
+2025-10-10 16:52:38 | INFO     |   Unchanged records: 13
+2025-10-10 16:52:38 | INFO     |   Max DOC_NO: 0
+2025-10-10 16:52:38 | INFO     | No changes detected in stock.dbf
+2025-10-10 16:52:38 | INFO     | ============================================================
+2025-10-10 16:52:38 | INFO     | Sync Cycle #10 Complete
+2025-10-10 16:52:38 | INFO     |   Duration: 0.02 seconds
+2025-10-10 16:52:38 | INFO     |   Files Processed: 1
+2025-10-10 16:52:38 | INFO     |   New Records: 0
+2025-10-10 16:52:38 | INFO     |   Updated Records: 0
+2025-10-10 16:52:38 | INFO     |   Deleted Records: 0
+2025-10-10 16:52:38 | INFO     |   CSV Files Created: 0
+2025-10-10 16:52:38 | INFO     | ============================================================
+2025-10-10 16:53:08 | INFO     | Starting sync cycle #11
+2025-10-10 16:53:08 | INFO     | Found standalone DBF: stock.dbf
+2025-10-10 16:53:08 | INFO     | Total: 1 DBF file(s), 0 with memo files
+2025-10-10 16:53:08 | INFO     | Processing: stock.dbf
+2025-10-10 16:53:08 | INFO     | Detecting changes in stock.dbf
+2025-10-10 16:53:08 | INFO     | Reading DBF file: RMan_Export/stock.dbf
+2025-10-10 16:53:08 | INFO     | Successfully read 13 records from RMan_Export/stock.dbf
+2025-10-10 16:53:08 | INFO     | Change detection complete for stock.dbf:
+2025-10-10 16:53:08 | INFO     |   New records: 0
+2025-10-10 16:53:08 | INFO     |   Updated records: 0
+2025-10-10 16:53:08 | INFO     |   Deleted records: 0
+2025-10-10 16:53:08 | INFO     |   Unchanged records: 13
+2025-10-10 16:53:08 | INFO     |   Max DOC_NO: 0
+2025-10-10 16:53:08 | INFO     | No changes detected in stock.dbf
+2025-10-10 16:53:08 | INFO     | ============================================================
+2025-10-10 16:53:08 | INFO     | Sync Cycle #11 Complete
+2025-10-10 16:53:08 | INFO     |   Duration: 0.02 seconds
+2025-10-10 16:53:08 | INFO     |   Files Processed: 1
+2025-10-10 16:53:08 | INFO     |   New Records: 0
+2025-10-10 16:53:08 | INFO     |   Updated Records: 0
+2025-10-10 16:53:08 | INFO     |   Deleted Records: 0
+2025-10-10 16:53:08 | INFO     |   CSV Files Created: 0
+2025-10-10 16:53:08 | INFO     | ============================================================
+2025-10-10 16:53:38 | INFO     | Starting sync cycle #12
+2025-10-10 16:53:38 | INFO     | Found standalone DBF: stock.dbf
+2025-10-10 16:53:38 | INFO     | Total: 1 DBF file(s), 0 with memo files
+2025-10-10 16:53:38 | INFO     | Processing: stock.dbf
+2025-10-10 16:53:38 | INFO     | Detecting changes in stock.dbf
+2025-10-10 16:53:38 | INFO     | Reading DBF file: RMan_Export/stock.dbf
+2025-10-10 16:53:38 | INFO     | Successfully read 13 records from RMan_Export/stock.dbf
+2025-10-10 16:53:38 | INFO     | Change detection complete for stock.dbf:
+2025-10-10 16:53:38 | INFO     |   New records: 0
+2025-10-10 16:53:38 | INFO     |   Updated records: 0
+2025-10-10 16:53:38 | INFO     |   Deleted records: 0
+2025-10-10 16:53:38 | INFO     |   Unchanged records: 13
+2025-10-10 16:53:38 | INFO     |   Max DOC_NO: 0
+2025-10-10 16:53:38 | INFO     | No changes detected in stock.dbf
+2025-10-10 16:53:38 | INFO     | ============================================================
+2025-10-10 16:53:38 | INFO     | Sync Cycle #12 Complete
+2025-10-10 16:53:38 | INFO     |   Duration: 0.02 seconds
+2025-10-10 16:53:38 | INFO     |   Files Processed: 1
+2025-10-10 16:53:38 | INFO     |   New Records: 0
+2025-10-10 16:53:38 | INFO     |   Updated Records: 0
+2025-10-10 16:53:38 | INFO     |   Deleted Records: 0
+2025-10-10 16:53:38 | INFO     |   CSV Files Created: 0
+2025-10-10 16:53:38 | INFO     | ============================================================
+2025-10-10 16:54:08 | INFO     | Starting sync cycle #13
+2025-10-10 16:54:08 | INFO     | Found standalone DBF: stock.dbf
+2025-10-10 16:54:08 | INFO     | Total: 1 DBF file(s), 0 with memo files
+2025-10-10 16:54:08 | INFO     | Processing: stock.dbf
+2025-10-10 16:54:08 | INFO     | Detecting changes in stock.dbf
+2025-10-10 16:54:08 | INFO     | Reading DBF file: RMan_Export/stock.dbf
+2025-10-10 16:54:08 | INFO     | Successfully read 13 records from RMan_Export/stock.dbf
+2025-10-10 16:54:08 | INFO     | Change detection complete for stock.dbf:
+2025-10-10 16:54:08 | INFO     |   New records: 0
+2025-10-10 16:54:08 | INFO     |   Updated records: 0
+2025-10-10 16:54:08 | INFO     |   Deleted records: 0
+2025-10-10 16:54:08 | INFO     |   Unchanged records: 13
+2025-10-10 16:54:08 | INFO     |   Max DOC_NO: 0
+2025-10-10 16:54:08 | INFO     | No changes detected in stock.dbf
+2025-10-10 16:54:08 | INFO     | ============================================================
+2025-10-10 16:54:08 | INFO     | Sync Cycle #13 Complete
+2025-10-10 16:54:08 | INFO     |   Duration: 0.04 seconds
+2025-10-10 16:54:08 | INFO     |   Files Processed: 1
+2025-10-10 16:54:08 | INFO     |   New Records: 0
+2025-10-10 16:54:08 | INFO     |   Updated Records: 0
+2025-10-10 16:54:08 | INFO     |   Deleted Records: 0
+2025-10-10 16:54:08 | INFO     |   CSV Files Created: 0
+2025-10-10 16:54:08 | INFO     | ============================================================
+2025-10-10 16:54:38 | INFO     | Starting sync cycle #14
+2025-10-10 16:54:38 | INFO     | Found standalone DBF: stock.dbf
+2025-10-10 16:54:38 | INFO     | Total: 1 DBF file(s), 0 with memo files
+2025-10-10 16:54:38 | INFO     | Processing: stock.dbf
+2025-10-10 16:54:38 | INFO     | Detecting changes in stock.dbf
+2025-10-10 16:54:38 | INFO     | Reading DBF file: RMan_Export/stock.dbf
+2025-10-10 16:54:38 | INFO     | Successfully read 13 records from RMan_Export/stock.dbf
+2025-10-10 16:54:38 | INFO     | Change detection complete for stock.dbf:
+2025-10-10 16:54:38 | INFO     |   New records: 0
+2025-10-10 16:54:38 | INFO     |   Updated records: 0
+2025-10-10 16:54:38 | INFO     |   Deleted records: 0
+2025-10-10 16:54:38 | INFO     |   Unchanged records: 13
+2025-10-10 16:54:38 | INFO     |   Max DOC_NO: 0
+2025-10-10 16:54:38 | INFO     | No changes detected in stock.dbf
+2025-10-10 16:54:38 | INFO     | ============================================================
+2025-10-10 16:54:38 | INFO     | Sync Cycle #14 Complete
+2025-10-10 16:54:38 | INFO     |   Duration: 0.02 seconds
+2025-10-10 16:54:38 | INFO     |   Files Processed: 1
+2025-10-10 16:54:38 | INFO     |   New Records: 0
+2025-10-10 16:54:38 | INFO     |   Updated Records: 0
+2025-10-10 16:54:38 | INFO     |   Deleted Records: 0
+2025-10-10 16:54:38 | INFO     |   CSV Files Created: 0
+2025-10-10 16:54:38 | INFO     | ============================================================
+2025-10-10 16:55:08 | INFO     | Starting sync cycle #15
+2025-10-10 16:55:08 | INFO     | Found standalone DBF: stock.dbf
+2025-10-10 16:55:08 | INFO     | Total: 1 DBF file(s), 0 with memo files
+2025-10-10 16:55:08 | INFO     | Processing: stock.dbf
+2025-10-10 16:55:08 | INFO     | Detecting changes in stock.dbf
+2025-10-10 16:55:08 | INFO     | Reading DBF file: RMan_Export/stock.dbf
+2025-10-10 16:55:08 | INFO     | Successfully read 13 records from RMan_Export/stock.dbf
+2025-10-10 16:55:08 | INFO     | Change detection complete for stock.dbf:
+2025-10-10 16:55:08 | INFO     |   New records: 0
+2025-10-10 16:55:08 | INFO     |   Updated records: 0
+2025-10-10 16:55:08 | INFO     |   Deleted records: 0
+2025-10-10 16:55:08 | INFO     |   Unchanged records: 13
+2025-10-10 16:55:08 | INFO     |   Max DOC_NO: 0
+2025-10-10 16:55:08 | INFO     | No changes detected in stock.dbf
+2025-10-10 16:55:08 | INFO     | ============================================================
+2025-10-10 16:55:08 | INFO     | Sync Cycle #15 Complete
+2025-10-10 16:55:08 | INFO     |   Duration: 0.02 seconds
+2025-10-10 16:55:08 | INFO     |   Files Processed: 1
+2025-10-10 16:55:08 | INFO     |   New Records: 0
+2025-10-10 16:55:08 | INFO     |   Updated Records: 0
+2025-10-10 16:55:08 | INFO     |   Deleted Records: 0
+2025-10-10 16:55:08 | INFO     |   CSV Files Created: 0
+2025-10-10 16:55:08 | INFO     | ============================================================
+2025-10-10 16:55:39 | INFO     | Starting sync cycle #16
+2025-10-10 16:55:39 | INFO     | Found standalone DBF: stock.dbf
+2025-10-10 16:55:39 | INFO     | Total: 1 DBF file(s), 0 with memo files
+2025-10-10 16:55:39 | INFO     | Processing: stock.dbf
+2025-10-10 16:55:39 | INFO     | Detecting changes in stock.dbf
+2025-10-10 16:55:39 | INFO     | Reading DBF file: RMan_Export/stock.dbf
+2025-10-10 16:55:39 | INFO     | Successfully read 13 records from RMan_Export/stock.dbf
+2025-10-10 16:55:39 | INFO     | Change detection complete for stock.dbf:
+2025-10-10 16:55:39 | INFO     |   New records: 0
+2025-10-10 16:55:39 | INFO     |   Updated records: 0
+2025-10-10 16:55:39 | INFO     |   Deleted records: 0
+2025-10-10 16:55:39 | INFO     |   Unchanged records: 13
+2025-10-10 16:55:39 | INFO     |   Max DOC_NO: 0
+2025-10-10 16:55:39 | INFO     | No changes detected in stock.dbf
+2025-10-10 16:55:39 | INFO     | ============================================================
+2025-10-10 16:55:39 | INFO     | Sync Cycle #16 Complete
+2025-10-10 16:55:39 | INFO     |   Duration: 0.02 seconds
+2025-10-10 16:55:39 | INFO     |   Files Processed: 1
+2025-10-10 16:55:39 | INFO     |   New Records: 0
+2025-10-10 16:55:39 | INFO     |   Updated Records: 0
+2025-10-10 16:55:39 | INFO     |   Deleted Records: 0
+2025-10-10 16:55:39 | INFO     |   CSV Files Created: 0
+2025-10-10 16:55:39 | INFO     | ============================================================
+2025-10-10 16:56:09 | INFO     | Starting sync cycle #17
+2025-10-10 16:56:09 | INFO     | Found standalone DBF: stock.dbf
+2025-10-10 16:56:09 | INFO     | Total: 1 DBF file(s), 0 with memo files
+2025-10-10 16:56:09 | INFO     | Processing: stock.dbf
+2025-10-10 16:56:09 | INFO     | Detecting changes in stock.dbf
+2025-10-10 16:56:09 | INFO     | Reading DBF file: RMan_Export/stock.dbf
+2025-10-10 16:56:09 | INFO     | Successfully read 13 records from RMan_Export/stock.dbf
+2025-10-10 16:56:09 | INFO     | Change detection complete for stock.dbf:
+2025-10-10 16:56:09 | INFO     |   New records: 0
+2025-10-10 16:56:09 | INFO     |   Updated records: 0
+2025-10-10 16:56:09 | INFO     |   Deleted records: 0
+2025-10-10 16:56:09 | INFO     |   Unchanged records: 13
+2025-10-10 16:56:09 | INFO     |   Max DOC_NO: 0
+2025-10-10 16:56:09 | INFO     | No changes detected in stock.dbf
+2025-10-10 16:56:09 | INFO     | ============================================================
+2025-10-10 16:56:09 | INFO     | Sync Cycle #17 Complete
+2025-10-10 16:56:09 | INFO     |   Duration: 0.02 seconds
+2025-10-10 16:56:09 | INFO     |   Files Processed: 1
+2025-10-10 16:56:09 | INFO     |   New Records: 0
+2025-10-10 16:56:09 | INFO     |   Updated Records: 0
+2025-10-10 16:56:09 | INFO     |   Deleted Records: 0
+2025-10-10 16:56:09 | INFO     |   CSV Files Created: 0
+2025-10-10 16:56:09 | INFO     | ============================================================
+2025-10-10 16:56:39 | INFO     | Starting sync cycle #18
+2025-10-10 16:56:39 | INFO     | Found standalone DBF: stock.dbf
+2025-10-10 16:56:39 | INFO     | Total: 1 DBF file(s), 0 with memo files
+2025-10-10 16:56:39 | INFO     | Processing: stock.dbf
+2025-10-10 16:56:39 | INFO     | Detecting changes in stock.dbf
+2025-10-10 16:56:39 | INFO     | Reading DBF file: RMan_Export/stock.dbf
+2025-10-10 16:56:39 | INFO     | Successfully read 13 records from RMan_Export/stock.dbf
+2025-10-10 16:56:39 | INFO     | Change detection complete for stock.dbf:
+2025-10-10 16:56:39 | INFO     |   New records: 0
+2025-10-10 16:56:39 | INFO     |   Updated records: 0
+2025-10-10 16:56:39 | INFO     |   Deleted records: 0
+2025-10-10 16:56:39 | INFO     |   Unchanged records: 13
+2025-10-10 16:56:39 | INFO     |   Max DOC_NO: 0
+2025-10-10 16:56:39 | INFO     | No changes detected in stock.dbf
+2025-10-10 16:56:39 | INFO     | ============================================================
+2025-10-10 16:56:39 | INFO     | Sync Cycle #18 Complete
+2025-10-10 16:56:39 | INFO     |   Duration: 0.02 seconds
+2025-10-10 16:56:39 | INFO     |   Files Processed: 1
+2025-10-10 16:56:39 | INFO     |   New Records: 0
+2025-10-10 16:56:39 | INFO     |   Updated Records: 0
+2025-10-10 16:56:39 | INFO     |   Deleted Records: 0
+2025-10-10 16:56:39 | INFO     |   CSV Files Created: 0
+2025-10-10 16:56:39 | INFO     | ============================================================
+2025-10-10 16:57:09 | INFO     | Starting sync cycle #19
+2025-10-10 16:57:09 | INFO     | Found standalone DBF: stock.dbf
+2025-10-10 16:57:09 | INFO     | Total: 1 DBF file(s), 0 with memo files
+2025-10-10 16:57:09 | INFO     | Processing: stock.dbf
+2025-10-10 16:57:09 | INFO     | Detecting changes in stock.dbf
+2025-10-10 16:57:09 | INFO     | Reading DBF file: RMan_Export/stock.dbf
+2025-10-10 16:57:09 | INFO     | Successfully read 13 records from RMan_Export/stock.dbf
+2025-10-10 16:57:09 | INFO     | Change detection complete for stock.dbf:
+2025-10-10 16:57:09 | INFO     |   New records: 0
+2025-10-10 16:57:09 | INFO     |   Updated records: 0
+2025-10-10 16:57:09 | INFO     |   Deleted records: 0
+2025-10-10 16:57:09 | INFO     |   Unchanged records: 13
+2025-10-10 16:57:09 | INFO     |   Max DOC_NO: 0
+2025-10-10 16:57:09 | INFO     | No changes detected in stock.dbf
+2025-10-10 16:57:09 | INFO     | ============================================================
+2025-10-10 16:57:09 | INFO     | Sync Cycle #19 Complete
+2025-10-10 16:57:09 | INFO     |   Duration: 0.02 seconds
+2025-10-10 16:57:09 | INFO     |   Files Processed: 1
+2025-10-10 16:57:09 | INFO     |   New Records: 0
+2025-10-10 16:57:09 | INFO     |   Updated Records: 0
+2025-10-10 16:57:09 | INFO     |   Deleted Records: 0
+2025-10-10 16:57:09 | INFO     |   CSV Files Created: 0
+2025-10-10 16:57:09 | INFO     | ============================================================
+2025-10-10 16:57:39 | INFO     | Starting sync cycle #20
+2025-10-10 16:57:39 | INFO     | Found standalone DBF: stock.dbf
+2025-10-10 16:57:39 | INFO     | Total: 1 DBF file(s), 0 with memo files
+2025-10-10 16:57:39 | INFO     | Processing: stock.dbf
+2025-10-10 16:57:39 | INFO     | Detecting changes in stock.dbf
+2025-10-10 16:57:39 | INFO     | Reading DBF file: RMan_Export/stock.dbf
+2025-10-10 16:57:39 | INFO     | Successfully read 13 records from RMan_Export/stock.dbf
+2025-10-10 16:57:39 | INFO     | Change detection complete for stock.dbf:
+2025-10-10 16:57:39 | INFO     |   New records: 0
+2025-10-10 16:57:39 | INFO     |   Updated records: 0
+2025-10-10 16:57:39 | INFO     |   Deleted records: 0
+2025-10-10 16:57:39 | INFO     |   Unchanged records: 13
+2025-10-10 16:57:39 | INFO     |   Max DOC_NO: 0
+2025-10-10 16:57:39 | INFO     | No changes detected in stock.dbf
+2025-10-10 16:57:39 | INFO     | ============================================================
+2025-10-10 16:57:39 | INFO     | Sync Cycle #20 Complete
+2025-10-10 16:57:39 | INFO     |   Duration: 0.02 seconds
+2025-10-10 16:57:39 | INFO     |   Files Processed: 1
+2025-10-10 16:57:39 | INFO     |   New Records: 0
+2025-10-10 16:57:39 | INFO     |   Updated Records: 0
+2025-10-10 16:57:39 | INFO     |   Deleted Records: 0
+2025-10-10 16:57:39 | INFO     |   CSV Files Created: 0
+2025-10-10 16:57:39 | INFO     | ============================================================
+2025-10-10 16:57:43 | INFO     | Received signal 2. Shutting down...
+2025-10-10 16:57:43 | INFO     | Stopping ESL Middleware...
+2025-10-10 16:57:43 | SUCCESS  | ✅ Middleware stopped gracefully
+2025-10-10 17:06:52 | INFO     | ================================================================================
+2025-10-10 17:06:52 | INFO     | ESL INVENTORY SYNCHRONIZATION MIDDLEWARE STARTED
+2025-10-10 17:06:52 | INFO     | Version: 1.0.0 (Cross-Platform)
+2025-10-10 17:06:52 | INFO     | Platform: Darwin 24.5.0
+2025-10-10 17:06:52 | INFO     | Python: 3.13.7
+2025-10-10 17:06:52 | INFO     | Config: config.json
+2025-10-10 17:06:52 | INFO     | Poll Interval: 30 seconds
+2025-10-10 17:06:52 | INFO     | ================================================================================
+2025-10-10 17:06:52 | INFO     | Starting ESL Middleware...
+2025-10-10 17:06:52 | INFO     | Running initial synchronization...
+2025-10-10 17:06:52 | INFO     | Starting sync cycle #1
+2025-10-10 17:06:52 | INFO     | Found standalone DBF: stock.dbf
+2025-10-10 17:06:52 | INFO     | Total: 1 DBF file(s), 0 with memo files
+2025-10-10 17:06:52 | INFO     | Processing: stock.dbf
+2025-10-10 17:06:52 | INFO     | Detecting changes in stock.dbf
+2025-10-10 17:06:52 | INFO     | Reading DBF file: RMan_Export/stock.dbf
+2025-10-10 17:06:52 | INFO     | Successfully read 13 records from RMan_Export/stock.dbf
+2025-10-10 17:06:52 | INFO     | Change detection complete for stock.dbf:
+2025-10-10 17:06:52 | INFO     |   New records: 0
+2025-10-10 17:06:52 | INFO     |   Updated records: 2
+2025-10-10 17:06:52 | INFO     |   Deleted records: 0
+2025-10-10 17:06:52 | INFO     |   Unchanged records: 11
+2025-10-10 17:06:52 | INFO     |   Max DOC_NO: 0
+2025-10-10 17:06:52 | INFO     | Transforming 2 records from stock.dbf (type: STOCK)
+2025-10-10 17:06:52 | INFO     | CSV file created: ESL_Sync/STOCK_20251010170652.csv (2 records)
+2025-10-10 17:06:52 | INFO     | Successfully transformed 2 records to ESL_Sync/STOCK_20251010170652.csv
+2025-10-10 17:06:52 | SUCCESS  | ✅ CSV created: STOCK_20251010170652.csv (2 records)
+2025-10-10 17:06:52 | INFO     | ============================================================
+2025-10-10 17:06:52 | INFO     | Sync Cycle #1 Complete
+2025-10-10 17:06:52 | INFO     |   Duration: 0.00 seconds
+2025-10-10 17:06:52 | INFO     |   Files Processed: 1
+2025-10-10 17:06:52 | INFO     |   New Records: 0
+2025-10-10 17:06:52 | INFO     |   Updated Records: 2
+2025-10-10 17:06:52 | INFO     |   Deleted Records: 0
+2025-10-10 17:06:52 | INFO     |   CSV Files Created: 1
+2025-10-10 17:06:52 | INFO     | ============================================================
+2025-10-10 17:06:52 | SUCCESS  | ✅ Middleware started. Syncing every 30 seconds
+2025-10-10 17:06:52 | INFO     | Press Ctrl+C to stop
+2025-10-10 17:07:21 | INFO     | Received signal 2. Shutting down...
+2025-10-10 17:07:21 | INFO     | Stopping ESL Middleware...
+2025-10-10 17:07:21 | SUCCESS  | ✅ Middleware stopped gracefully

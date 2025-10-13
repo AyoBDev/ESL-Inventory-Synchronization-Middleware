@@ -1,45 +1,108 @@
 {
-  "AnyConv.com__dummy_pos.dbf": {
-    "last_processed": "2025-09-30T01:40:49.817400",
+  "stock.dbf": {
+    "last_processed": "2025-10-10T17:06:52.818787",
     "last_doc_no": 0,
     "records": {
-      "SKU001": {
-        "record_id": "SKU001",
-        "checksum": "2085e9d3d4a0d85154956331d6af8614",
-        "last_seen": "2025-09-30T01:40:49.817400",
-        "doc_no": 1001,
+      "S": {
+        "record_id": "S",
+        "checksum": "2f4853fcf50af2e22e06dd2112a1ab24",
+        "last_seen": "2025-10-10T16:38:23.204796",
+        "doc_no": null,
+        "deleted": true
+      },
+      "1": {
+        "record_id": "1",
+        "checksum": "a95980a355cc4c54bfdee48872ce9301",
+        "last_seen": "2025-10-10T17:06:52.818787",
+        "doc_no": null,
         "deleted": false
       },
-      "SKU002": {
-        "record_id": "SKU002",
-        "checksum": "5ff066c50f0dbb958647b987add58737",
-        "last_seen": "2025-09-30T01:40:49.817400",
-        "doc_no": 1002,
+      "WATER": {
+        "record_id": "WATER",
+        "checksum": "8a7ae69f91273fbb4a140cdb5c1def5a",
+        "last_seen": "2025-10-10T17:06:52.818787",
+        "doc_no": null,
         "deleted": false
       },
-      "SKU003": {
-        "record_id": "SKU003",
-        "checksum": "41c9b93bd14d129de31bef894ffd8077",
-        "last_seen": "2025-09-30T01:40:49.817400",
-        "doc_no": 1003,
+      "POWER": {
+        "record_id": "POWER",
+        "checksum": "3c52ecdd58f594e4b3605ca56e86b5a4",
+        "last_seen": "2025-10-10T17:06:52.818787",
+        "doc_no": null,
         "deleted": false
       },
-      "SKU004": {
-        "record_id": "SKU004",
-        "checksum": "3ca57f21ee3fa78d8a2e19a32be0aa18",
-        "last_seen": "2025-09-30T01:40:49.817400",
-        "doc_no": 1004,
+      "BC": {
+        "record_id": "BC",
+        "checksum": "4f1879be5b231fadcc9611032e9bf188",
+        "last_seen": "2025-10-10T17:06:52.818787",
+        "doc_no": null,
         "deleted": false
       },
-      "SKU005": {
-        "record_id": "SKU005",
-        "checksum": "086ae4b480bc62d24720264c18a7794c",
-        "last_seen": "2025-09-30T01:40:49.817400",
-        "doc_no": 1005,
+      "TEL": {
+        "record_id": "TEL",
+        "checksum": "5459535283d2811dde995362c085054e",
+        "last_seen": "2025-10-10T17:06:52.818787",
+        "doc_no": null,
+        "deleted": false
+      },
+      "P1": {
+        "record_id": "P1",
+        "checksum": "4900c1f5ae28e8c0ce6e78a2fc8e45f8",
+        "last_seen": "2025-10-10T17:06:52.818787",
+        "doc_no": null,
+        "deleted": false
+      },
+      "ACC": {
+        "record_id": "ACC",
+        "checksum": "4c70746e015640bbc83d68d9817a0807",
+        "last_seen": "2025-10-10T17:06:52.818787",
+        "doc_no": null,
+        "deleted": false
+      },
+      "RENT": {
+        "record_id": "RENT",
+        "checksum": "5b6211def2cfbcbc3d84173b289e78fc",
+        "last_seen": "2025-10-10T17:06:52.818787",
+        "doc_no": null,
+        "deleted": false
+      },
+      "LEGAL": {
+        "record_id": "LEGAL",
+        "checksum": "2f65844c191e3b73763ea6ced53f9a2d",
+        "last_seen": "2025-10-10T17:06:52.818787",
+        "doc_no": null,
+        "deleted": false
+      },
+      "-10%": {
+        "record_id": "-10%",
+        "checksum": "5f7a698083b96bf1e5a8b5fae21c160b",
+        "last_seen": "2025-10-10T17:06:52.818787",
+        "doc_no": null,
+        "deleted": false
+      },
+      "5%": {
+        "record_id": "5%",
+        "checksum": "f3912d2c18b21fd863272e71aa0ab0ef",
+        "last_seen": "2025-10-10T17:06:52.818787",
+        "doc_no": null,
+        "deleted": false
+      },
+      "New item": {
+        "record_id": "New item",
+        "checksum": "80b2cb79f31dd107e65e7df6f8e351d6",
+        "last_seen": "2025-10-10T17:06:52.818787",
+        "doc_no": null,
+        "deleted": false
+      },
+      "suy": {
+        "record_id": "suy",
+        "checksum": "2fb1f0b4caacccceeade2619f5b51518",
+        "last_seen": "2025-10-10T17:06:52.818787",
+        "doc_no": null,
         "deleted": false
       }
     },
     "file_checksum": null,
-    "last_modified": "2025-09-30T01:34:31.615093"
+    "last_modified": "2025-10-10T17:04:49.996914"
   }
 }

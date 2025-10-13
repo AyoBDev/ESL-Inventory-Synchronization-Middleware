@@ -1,0 +1,23 @@
+2025-10-01 19:14:26 | INFO | ==================================================
+2025-10-01 19:14:26 | INFO | ESL Synchronization Middleware Started
+2025-10-01 19:14:26 | INFO | DBF Input Directory: ./RMan_Export/
+2025-10-01 19:14:26 | INFO | CSV Output Directory: ./ESL_Sync/
+2025-10-01 19:14:26 | DEBUG | Ensured directory exists: ./RMan_Export/
+2025-10-01 19:14:26 | DEBUG | Ensured directory exists: ./ESL_Sync/
+2025-10-01 19:14:26 | DEBUG | Ensured directory exists: ./ESL_Middleware_Logs/
+2025-10-01 19:14:26 | INFO | ==================================================
+2025-10-01 19:14:26 | INFO | ==================================================
+2025-10-01 19:14:26 | INFO | ESL Synchronization Middleware Started
+2025-10-01 19:14:26 | INFO | ESL Synchronization Middleware Started
+2025-10-01 19:14:26 | INFO | DBF Input Directory: ./RMan_Export/
+2025-10-01 19:14:26 | INFO | DBF Input Directory: ./RMan_Export/
+2025-10-01 19:14:26 | INFO | CSV Output Directory: ./ESL_Sync/
+2025-10-01 19:14:26 | INFO | CSV Output Directory: ./ESL_Sync/
+2025-10-01 19:14:26 | DEBUG | Ensured directory exists: ./RMan_Export/
+2025-10-01 19:14:26 | DEBUG | Ensured directory exists: ./RMan_Export/
+2025-10-01 19:14:26 | DEBUG | Ensured directory exists: ./ESL_Sync/
+2025-10-01 19:14:26 | DEBUG | Ensured directory exists: ./ESL_Sync/
+2025-10-01 19:14:26 | DEBUG | Ensured directory exists: ./ESL_Middleware_Logs/
+2025-10-01 19:14:26 | DEBUG | Ensured directory exists: ./ESL_Middleware_Logs/
+2025-10-01 19:14:26 | DEBUG | Ensured output directory exists: ./ESL_Sync/
+2025-10-01 19:14:26 | DEBUG | Ensured output directory exists: ./ESL_Sync/
