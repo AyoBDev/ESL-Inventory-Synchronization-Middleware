@@ -1,108 +1,108 @@
 {
   "stock.dbf": {
-    "last_processed": "2025-10-10T17:06:52.818787",
+    "last_processed": "2025-10-13T10:54:09.884239",
     "last_doc_no": 0,
     "records": {
-      "S": {
-        "record_id": "S",
-        "checksum": "2f4853fcf50af2e22e06dd2112a1ab24",
-        "last_seen": "2025-10-10T16:38:23.204796",
+      "New item": {
+        "record_id": "New item",
+        "checksum": "80b2cb79f31dd107e65e7df6f8e351d6",
+        "last_seen": "2025-10-13T10:54:09.884239",
         "doc_no": null,
-        "deleted": true
+        "deleted": false
       },
       "1": {
         "record_id": "1",
         "checksum": "a95980a355cc4c54bfdee48872ce9301",
-        "last_seen": "2025-10-10T17:06:52.818787",
+        "last_seen": "2025-10-13T10:54:09.884239",
         "doc_no": null,
         "deleted": false
       },
       "WATER": {
         "record_id": "WATER",
         "checksum": "8a7ae69f91273fbb4a140cdb5c1def5a",
-        "last_seen": "2025-10-10T17:06:52.818787",
+        "last_seen": "2025-10-13T10:54:09.884239",
         "doc_no": null,
         "deleted": false
       },
       "POWER": {
         "record_id": "POWER",
         "checksum": "3c52ecdd58f594e4b3605ca56e86b5a4",
-        "last_seen": "2025-10-10T17:06:52.818787",
+        "last_seen": "2025-10-13T10:54:09.884239",
         "doc_no": null,
         "deleted": false
       },
       "BC": {
         "record_id": "BC",
         "checksum": "4f1879be5b231fadcc9611032e9bf188",
-        "last_seen": "2025-10-10T17:06:52.818787",
+        "last_seen": "2025-10-13T10:54:09.884239",
         "doc_no": null,
         "deleted": false
       },
       "TEL": {
         "record_id": "TEL",
         "checksum": "5459535283d2811dde995362c085054e",
-        "last_seen": "2025-10-10T17:06:52.818787",
+        "last_seen": "2025-10-13T10:54:09.884239",
         "doc_no": null,
         "deleted": false
       },
       "P1": {
         "record_id": "P1",
         "checksum": "4900c1f5ae28e8c0ce6e78a2fc8e45f8",
-        "last_seen": "2025-10-10T17:06:52.818787",
+        "last_seen": "2025-10-13T10:54:09.884239",
         "doc_no": null,
         "deleted": false
       },
       "ACC": {
         "record_id": "ACC",
         "checksum": "4c70746e015640bbc83d68d9817a0807",
-        "last_seen": "2025-10-10T17:06:52.818787",
+        "last_seen": "2025-10-13T10:54:09.884239",
         "doc_no": null,
         "deleted": false
       },
       "RENT": {
         "record_id": "RENT",
         "checksum": "5b6211def2cfbcbc3d84173b289e78fc",
-        "last_seen": "2025-10-10T17:06:52.818787",
+        "last_seen": "2025-10-13T10:54:09.884239",
         "doc_no": null,
         "deleted": false
       },
       "LEGAL": {
         "record_id": "LEGAL",
         "checksum": "2f65844c191e3b73763ea6ced53f9a2d",
-        "last_seen": "2025-10-10T17:06:52.818787",
+        "last_seen": "2025-10-13T10:54:09.884239",
         "doc_no": null,
         "deleted": false
       },
       "-10%": {
         "record_id": "-10%",
         "checksum": "5f7a698083b96bf1e5a8b5fae21c160b",
-        "last_seen": "2025-10-10T17:06:52.818787",
+        "last_seen": "2025-10-13T10:54:09.884239",
         "doc_no": null,
         "deleted": false
       },
       "5%": {
         "record_id": "5%",
         "checksum": "f3912d2c18b21fd863272e71aa0ab0ef",
-        "last_seen": "2025-10-10T17:06:52.818787",
-        "doc_no": null,
-        "deleted": false
-      },
-      "New item": {
-        "record_id": "New item",
-        "checksum": "80b2cb79f31dd107e65e7df6f8e351d6",
-        "last_seen": "2025-10-10T17:06:52.818787",
+        "last_seen": "2025-10-13T10:54:09.884239",
         "doc_no": null,
         "deleted": false
       },
       "suy": {
         "record_id": "suy",
         "checksum": "2fb1f0b4caacccceeade2619f5b51518",
-        "last_seen": "2025-10-10T17:06:52.818787",
+        "last_seen": "2025-10-13T10:54:09.884239",
+        "doc_no": null,
+        "deleted": false
+      },
+      "tup": {
+        "record_id": "tup",
+        "checksum": "e8aa7f8233a95d9eb474caf5ecd70869",
+        "last_seen": "2025-10-13T10:54:09.884239",
         "doc_no": null,
         "deleted": false
       }
     },
     "file_checksum": null,
-    "last_modified": "2025-10-10T17:04:49.996914"
+    "last_modified": "2025-10-13T10:52:26.526448"
   }
 }

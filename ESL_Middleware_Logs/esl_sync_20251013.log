@@ -1,0 +1,128 @@
+2025-10-13 10:10:42 | INFO | ==================================================
+2025-10-13 10:10:42 | INFO | Enhanced DBF Reader with Memo Support Started
+2025-10-13 10:10:42 | INFO | DBF Input Directory: ./RMan_Export/
+2025-10-13 10:10:42 | DEBUG | Ensured directory exists: ./RMan_Export/
+2025-10-13 10:10:42 | DEBUG | Ensured directory exists: ./ESL_Sync/
+2025-10-13 10:10:42 | DEBUG | Ensured directory exists: ./ESL_Middleware_Logs/
+2025-10-13 10:10:42 | INFO | ==================================================
+2025-10-13 10:10:42 | INFO | ==================================================
+2025-10-13 10:10:42 | INFO | Enhanced DBF Reader with Memo Support Started
+2025-10-13 10:10:42 | INFO | Enhanced DBF Reader with Memo Support Started
+2025-10-13 10:10:42 | INFO | DBF Input Directory: ./RMan_Export/
+2025-10-13 10:10:42 | INFO | DBF Input Directory: ./RMan_Export/
+2025-10-13 10:10:42 | DEBUG | Ensured directory exists: ./RMan_Export/
+2025-10-13 10:10:42 | DEBUG | Ensured directory exists: ./RMan_Export/
+2025-10-13 10:10:42 | DEBUG | Ensured directory exists: ./ESL_Sync/
+2025-10-13 10:10:42 | DEBUG | Ensured directory exists: ./ESL_Sync/
+2025-10-13 10:10:42 | DEBUG | Ensured directory exists: ./ESL_Middleware_Logs/
+2025-10-13 10:10:42 | DEBUG | Ensured directory exists: ./ESL_Middleware_Logs/
+2025-10-13 10:10:42 | DEBUG | Ensured output directory exists: ./ESL_Sync/
+2025-10-13 10:10:42 | DEBUG | Ensured output directory exists: ./ESL_Sync/
+2025-10-13 10:39:48 | INFO | ==================================================
+2025-10-13 10:39:48 | INFO | Enhanced DBF Reader with Memo Support Started
+2025-10-13 10:39:48 | INFO | DBF Input Directory: ./RMan_Export/
+2025-10-13 10:39:48 | DEBUG | Ensured directory exists: ./RMan_Export/
+2025-10-13 10:39:48 | DEBUG | Ensured directory exists: ./ESL_Sync/
+2025-10-13 10:39:48 | DEBUG | Ensured directory exists: ./ESL_Middleware_Logs/
+2025-10-13 10:39:48 | INFO | ==================================================
+2025-10-13 10:39:48 | INFO | ==================================================
+2025-10-13 10:39:48 | INFO | Enhanced DBF Reader with Memo Support Started
+2025-10-13 10:39:48 | INFO | Enhanced DBF Reader with Memo Support Started
+2025-10-13 10:39:48 | INFO | DBF Input Directory: ./RMan_Export/
+2025-10-13 10:39:48 | INFO | DBF Input Directory: ./RMan_Export/
+2025-10-13 10:39:48 | DEBUG | Ensured directory exists: ./RMan_Export/
+2025-10-13 10:39:48 | DEBUG | Ensured directory exists: ./RMan_Export/
+2025-10-13 10:39:48 | DEBUG | Ensured directory exists: ./ESL_Sync/
+2025-10-13 10:39:48 | DEBUG | Ensured directory exists: ./ESL_Sync/
+2025-10-13 10:39:48 | DEBUG | Ensured directory exists: ./ESL_Middleware_Logs/
+2025-10-13 10:39:48 | DEBUG | Ensured directory exists: ./ESL_Middleware_Logs/
+2025-10-13 10:39:48 | ERROR | Failed to start middleware: name 'DataTransformer' is not defined
+2025-10-13 10:39:48 | ERROR | Failed to start middleware: name 'DataTransformer' is not defined
+2025-10-13 10:39:48 | DEBUG | Traceback (most recent call last):
+  File "/Users/mac/Documents/Vscode/dbftocsv/esl_middleware.py", line 413, in main
+    middleware = ESLMiddleware(config_file)
+  File "/Users/mac/Documents/Vscode/dbftocsv/esl_middleware.py", line 46, in __init__
+    self.transformer = DataTransformer(TransformerConfig(config_file))
+                       ^^^^^^^^^^^^^^^
+NameError: name 'DataTransformer' is not defined. Did you mean: 'FixedDataTransformer'?
+
+2025-10-13 10:39:48 | DEBUG | Traceback (most recent call last):
+  File "/Users/mac/Documents/Vscode/dbftocsv/esl_middleware.py", line 413, in main
+    middleware = ESLMiddleware(config_file)
+  File "/Users/mac/Documents/Vscode/dbftocsv/esl_middleware.py", line 46, in __init__
+    self.transformer = DataTransformer(TransformerConfig(config_file))
+                       ^^^^^^^^^^^^^^^
+NameError: name 'DataTransformer' is not defined. Did you mean: 'FixedDataTransformer'?
+
+2025-10-13 10:41:00 | INFO | ==================================================
+2025-10-13 10:41:00 | INFO | Enhanced DBF Reader with Memo Support Started
+2025-10-13 10:41:00 | INFO | DBF Input Directory: ./RMan_Export/
+2025-10-13 10:41:00 | DEBUG | Ensured directory exists: ./RMan_Export/
+2025-10-13 10:41:00 | DEBUG | Ensured directory exists: ./ESL_Sync/
+2025-10-13 10:41:00 | DEBUG | Ensured directory exists: ./ESL_Middleware_Logs/
+2025-10-13 10:41:00 | INFO | ==================================================
+2025-10-13 10:41:00 | INFO | ==================================================
+2025-10-13 10:41:00 | INFO | Enhanced DBF Reader with Memo Support Started
+2025-10-13 10:41:00 | INFO | Enhanced DBF Reader with Memo Support Started
+2025-10-13 10:41:00 | INFO | DBF Input Directory: ./RMan_Export/
+2025-10-13 10:41:00 | INFO | DBF Input Directory: ./RMan_Export/
+2025-10-13 10:41:00 | DEBUG | Ensured directory exists: ./RMan_Export/
+2025-10-13 10:41:00 | DEBUG | Ensured directory exists: ./RMan_Export/
+2025-10-13 10:41:00 | DEBUG | Ensured directory exists: ./ESL_Sync/
+2025-10-13 10:41:00 | DEBUG | Ensured directory exists: ./ESL_Sync/
+2025-10-13 10:41:00 | DEBUG | Ensured directory exists: ./ESL_Middleware_Logs/
+2025-10-13 10:41:00 | DEBUG | Ensured directory exists: ./ESL_Middleware_Logs/
+2025-10-13 10:41:00 | DEBUG | Output directory ready: ./ESL_Sync/
+2025-10-13 10:41:00 | DEBUG | Output directory ready: ./ESL_Sync/
+2025-10-13 10:41:00 | INFO | Fixed Data Transformer initialized
+2025-10-13 10:41:00 | INFO | Fixed Data Transformer initialized
+2025-10-13 10:41:00 | INFO | Field mappings configured for 14 fields
+2025-10-13 10:41:00 | INFO | Field mappings configured for 14 fields
+2025-10-13 10:44:40 | INFO | ==================================================
+2025-10-13 10:44:40 | INFO | Enhanced DBF Reader with Memo Support Started
+2025-10-13 10:44:40 | INFO | DBF Input Directory: ./RMan_Export/
+2025-10-13 10:44:40 | DEBUG | Ensured directory exists: ./RMan_Export/
+2025-10-13 10:44:40 | DEBUG | Ensured directory exists: ./ESL_Sync/
+2025-10-13 10:44:40 | DEBUG | Ensured directory exists: ./ESL_Middleware_Logs/
+2025-10-13 10:44:40 | INFO | ==================================================
+2025-10-13 10:44:40 | INFO | ==================================================
+2025-10-13 10:44:40 | INFO | Enhanced DBF Reader with Memo Support Started
+2025-10-13 10:44:40 | INFO | Enhanced DBF Reader with Memo Support Started
+2025-10-13 10:44:40 | INFO | DBF Input Directory: ./RMan_Export/
+2025-10-13 10:44:40 | INFO | DBF Input Directory: ./RMan_Export/
+2025-10-13 10:44:40 | DEBUG | Ensured directory exists: ./RMan_Export/
+2025-10-13 10:44:40 | DEBUG | Ensured directory exists: ./RMan_Export/
+2025-10-13 10:44:40 | DEBUG | Ensured directory exists: ./ESL_Sync/
+2025-10-13 10:44:40 | DEBUG | Ensured directory exists: ./ESL_Sync/
+2025-10-13 10:44:40 | DEBUG | Ensured directory exists: ./ESL_Middleware_Logs/
+2025-10-13 10:44:40 | DEBUG | Ensured directory exists: ./ESL_Middleware_Logs/
+2025-10-13 10:44:40 | DEBUG | Output directory ready: ./ESL_Sync/
+2025-10-13 10:44:40 | DEBUG | Output directory ready: ./ESL_Sync/
+2025-10-13 10:44:40 | INFO | Fixed Data Transformer initialized
+2025-10-13 10:44:40 | INFO | Fixed Data Transformer initialized
+2025-10-13 10:44:40 | INFO | Field mappings configured for 14 fields
+2025-10-13 10:44:40 | INFO | Field mappings configured for 14 fields
+2025-10-13 10:53:09 | INFO | ==================================================
+2025-10-13 10:53:09 | INFO | Enhanced DBF Reader with Memo Support Started
+2025-10-13 10:53:09 | INFO | DBF Input Directory: ./RMan_Export/
+2025-10-13 10:53:09 | DEBUG | Ensured directory exists: ./RMan_Export/
+2025-10-13 10:53:09 | DEBUG | Ensured directory exists: ./ESL_Sync/
+2025-10-13 10:53:09 | DEBUG | Ensured directory exists: ./ESL_Middleware_Logs/
+2025-10-13 10:53:09 | INFO | ==================================================
+2025-10-13 10:53:09 | INFO | ==================================================
+2025-10-13 10:53:09 | INFO | Enhanced DBF Reader with Memo Support Started
+2025-10-13 10:53:09 | INFO | Enhanced DBF Reader with Memo Support Started
+2025-10-13 10:53:09 | INFO | DBF Input Directory: ./RMan_Export/
+2025-10-13 10:53:09 | INFO | DBF Input Directory: ./RMan_Export/
+2025-10-13 10:53:09 | DEBUG | Ensured directory exists: ./RMan_Export/
+2025-10-13 10:53:09 | DEBUG | Ensured directory exists: ./RMan_Export/
+2025-10-13 10:53:09 | DEBUG | Ensured directory exists: ./ESL_Sync/
+2025-10-13 10:53:09 | DEBUG | Ensured directory exists: ./ESL_Sync/
+2025-10-13 10:53:09 | DEBUG | Ensured directory exists: ./ESL_Middleware_Logs/
+2025-10-13 10:53:09 | DEBUG | Ensured directory exists: ./ESL_Middleware_Logs/
+2025-10-13 10:53:09 | DEBUG | Output directory ready: ./ESL_Sync/
+2025-10-13 10:53:09 | DEBUG | Output directory ready: ./ESL_Sync/
+2025-10-13 10:53:09 | INFO | Fixed Data Transformer initialized
+2025-10-13 10:53:09 | INFO | Fixed Data Transformer initialized
+2025-10-13 10:53:09 | INFO | Field mappings configured for 14 fields
+2025-10-13 10:53:09 | INFO | Field mappings configured for 14 fields

@@ -24,7 +24,7 @@ import filelock
 # Import our modules
 from dbf_reader_with_memo import Config as DBFConfig, EnhancedDBFReader as DBFReader
 from incremental_detector import IncrementalDetector, StateTracker
-from data_transformer import DataTransformer, Config as TransformerConfig
+from data_transformer import FixedDataTransformer, Config as TransformerConfig
 
 
 class ESLMiddleware:
@@ -43,7 +43,7 @@ class ESLMiddleware:
         self.state_tracker = StateTracker(self.config.STATE_FILE)
         self.dbf_reader = DBFReader(self.config)
         self.detector = IncrementalDetector(self.config, self.state_tracker)
-        self.transformer = DataTransformer(TransformerConfig(config_file))
+        self.transformer = FixedDataTransformer(TransformerConfig(config_file))
         
         # Setup logging
         self.setup_enhanced_logging()
